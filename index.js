@@ -1,8 +1,11 @@
-const units = require('./units');
-const upgrades = require('./upgrades');
-export const types = require('./types');
+import units from './units';
+import upgrades from './upgrades';
+import types = require('./types');
 
-module.exports = {
+export const types;
+
+export default {
   units,
   upgrades,
+  types
 };
