@@ -34,7 +34,7 @@ export type Slot =
   | 'Pilot'
   | 'Elite';
 
-export type Squadron = {
+export type Army = {
   uid: string,
   name: string,
   points: number,
