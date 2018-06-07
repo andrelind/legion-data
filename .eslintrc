@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      { "trailingComma": "es5", "singleQuote": true }
+    ],
+    "no-undef": 0
+  }
+}
