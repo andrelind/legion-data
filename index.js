@@ -1,7 +1,8 @@
+// @flow
 import unitsImport from './units';
 import upgradesImport from './upgrades';
 import typesImport from './types';
-import ldfImport from './types';
+import ldfImport from './types/ldf';
 
 export const units = unitsImport;
 export const upgrades = upgradesImport;
