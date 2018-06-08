@@ -10,7 +10,7 @@ const units: Array<Unit> = [
     side: 'dark',
     type: 'Trooper',
     points: 160,
-    rank: 'Commander',
+    rank: 'Operative',
     minis: 1,
     wounds: 5,
     courage: 3,
