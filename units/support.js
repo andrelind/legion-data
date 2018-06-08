@@ -134,7 +134,7 @@ const units: Array<Unit> = [
       {
         name: 'E-Web Heavy Blaster',
         range: { from: 1, to: 3 },
-        dice: { red: 2, black: 2, white: 2 },
+        dice: { red: 1, black: 2, white: 2 },
         keywords: ['Cumbersome', 'Fixed: Front'],
       },
     ],
