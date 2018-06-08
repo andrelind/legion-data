@@ -8,6 +8,7 @@ export type ArmyLDF = {
   side: Side,
   favourite: boolean,
   commander: UnitLDF[],
+  operative: UnitLDF[],
   corps: UnitLDF[],
   special: UnitLDF[],
   support: UnitLDF[],
@@ -21,14 +22,16 @@ export type UnitLDF = {
 };
 
 export type SlotsLDF = {
+  command?: UpgradeLDF[],
+  comms?: UpgradeLDF[],
+  elite?: UpgradeLDF[],
+  force?: UpgradeLDF[],
+  gear?: UpgradeLDF[],
+  generator?: UpgradeLDF[],
+  grenades?: UpgradeLDF[],
+  hardpoint?: UpgradeLDF[],
   heavy?: UpgradeLDF[],
   personnel?: UpgradeLDF[],
-  force?: UpgradeLDF[],
-  command?: UpgradeLDF[],
-  hardpoint?: UpgradeLDF[],
-  gear?: UpgradeLDF[],
-  grenades?: UpgradeLDF[],
-  comms?: UpgradeLDF[],
   pilot?: UpgradeLDF[],
 };
 

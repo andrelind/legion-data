@@ -93,14 +93,16 @@ export type Upgrade = {
 };
 
 export type Upgrades = {
+  command?: Upgrade[],
+  comms?: Upgrade[],
+  elite?: Upgrade[],
+  force?: Upgrade[],
+  gear?: Upgrade[],
+  generator?: Upgrade[],
+  grenades?: Upgrade[],
+  hardpoint?: Upgrade[],
   heavy?: Upgrade[],
   personnel?: Upgrade[],
-  force?: Upgrade[],
-  command?: Upgrade[],
-  hardpoint?: Upgrade[],
-  gear?: Upgrade[],
-  grenades?: Upgrade[],
-  comms?: Upgrade[],
   pilot?: Upgrade[],
 };
 
