@@ -44,6 +44,7 @@ export type Army = {
   favourite: boolean,
   version?: string,
   commander: Unit[],
+  operative: Unit[],
   corps: Unit[],
   special: Unit[],
   support: Unit[],
