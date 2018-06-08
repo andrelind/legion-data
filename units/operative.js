@@ -66,3 +66,5 @@ const units: Array<Unit> = [
     ],
   },
 ];
+
+export default units;
