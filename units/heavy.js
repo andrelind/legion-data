@@ -77,7 +77,7 @@ const units: Array<Unit> = [
       {
         name: 'Weak Point 1: Rear',
         description:
-          "While defending, if the attacker's unit leader is inside your rear arc, the attack pool gains <strong>Impact 1</strong>",
+          "While defending, if the attacker's unit leader is inside your rear arc, the attack pool gains <strong>IMPACT 1</strong>",
       },
     ],
     weapons: [

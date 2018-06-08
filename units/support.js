@@ -46,7 +46,6 @@ const units: Array<Unit> = [
       },
     ],
   },
-
   {
     ldf: '74zspeederbikes',
     name: '74-Z Speeder Bikes',
@@ -83,7 +82,107 @@ const units: Array<Unit> = [
         name: 'Ax-20 Blaster Cannon',
         range: { from: 1, to: 3 },
         dice: { red: 1, black: 1, white: 1 },
-        keywords: ['Fixed: Front, Impact 1'],
+        keywords: ['Fixed: Front', 'Impact 1'],
+      },
+    ],
+  },
+  {
+    ldf: 'ewebheavyblasterteam',
+    name: 'E-Web Heavy Blaster Team',
+    side: 'dark',
+    points: 55,
+    rank: 'Support',
+    type: 'Emplacement Trooper',
+    minis: 1,
+    wounds: 4,
+    courage: 2,
+    defense: 'red',
+    surge: { attack: 'crit' },
+    speed: 1,
+    slots: ['Comms', 'Generator'],
+    keywords: [
+      {
+        name: 'Full Pivot',
+        description: 'When you pivot, you can pivot up to 360°.',
+      },
+      {
+        name: 'Plodding',
+        description:
+          'During your activation, you can perform only 1 standard move.',
+      },
+      {
+        name: 'Reposition',
+        description:
+          'Either before or after you perform a standard move, you may perform a free pivot action.',
+      },
+      {
+        name: 'Sentinel',
+        description: 'Your standby range is 1-3.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 2 },
+      },
+      {
+        name: 'E-11 Blaster Rifles',
+        range: { from: 1, to: 3 },
+        dice: { white: 2 },
+      },
+      {
+        name: 'E-Web Heavy Blaster',
+        range: { from: 1, to: 3 },
+        dice: { red: 2, black: 2, white: 2 },
+        keywords: ['Cumbersome', 'Fixed: Front'],
+      },
+    ],
+  },
+  {
+    ldf: '14fdlasercannonteam',
+    name: '1.4 FD Laser Cannon Team',
+    side: 'light',
+    points: 70,
+    rank: 'Support',
+    type: 'Emplacement Trooper',
+    minis: 1,
+    wounds: 6,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'hit', defense: 'block' },
+    speed: 0,
+    slots: ['Comms', 'Generator'],
+    keywords: [
+      {
+        name: 'Full Pivot',
+        description: 'When you pivot, you can pivot up to 360°.',
+      },
+      {
+        name: 'Sentinel',
+        description: 'Your standby range is 1-3.',
+      },
+      {
+        name: 'Stationary',
+        description: 'You cannot perform moves, except pivots.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 2 },
+      },
+      {
+        name: 'DH-17 Blaster Pistols',
+        range: { from: 1, to: 2 },
+        dice: { white: 4 },
+      },
+      {
+        name: '1.4 FD Laser Cannon',
+        range: { from: 1, to: 4 },
+        dice: { black: 5 },
+        keywords: ['Impact 2', 'Fixed: Front'],
       },
     ],
   },

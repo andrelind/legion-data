@@ -204,6 +204,57 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'hansolo',
+    name: 'Han Solo',
+    // subtitle: '',
+    unique: true,
+    side: 'light',
+    type: 'Trooper',
+    points: 120,
+    rank: 'Commander',
+    minis: 1,
+    wounds: 6,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'crit', defense: 'block' },
+    speed: 2,
+    slots: ['Command', 'Elite', 'Gear'],
+    keywords: [
+      {
+        name: 'Low Profile',
+        description:
+          'While you are defending, if you have light cover, improve your cover by 1.',
+      },
+      {
+        name: 'Gunslinger',
+        description:
+          'After you perform a ranged attack action, you may perform an additional ranged attack action against a different unit.',
+      },
+      {
+        name: 'Sharpshooter 1',
+        description:
+          'While performing a ranged attack, reduce the defenders cover by 1.',
+      },
+      {
+        name: 'Uncanny Luck 2',
+        description: 'While defending, you may reroll up to 2 defense dice.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Brawl',
+        range: { from: 0 },
+        dice: { white: 3 },
+      },
+      {
+        name: "Han's DL-44 Blaster Pistol",
+        range: { from: 1, to: 2 },
+        dice: { red: 2 },
+        keywords: ['Pierce 2'],
+      },
+    ],
+  },
 ];
 
 export default units;

@@ -15,6 +15,7 @@ export type Keyword = {
 
 export type Rank =
   | 'Commander'
+  | 'Operative'
   | 'Corps'
   | 'Special Forces'
   | 'Support'
@@ -32,7 +33,8 @@ export type Slot =
   | 'Grenades'
   | 'Comms'
   | 'Pilot'
-  | 'Elite';
+  | 'Elite'
+  | 'Generator';
 
 export type Army = {
   uid: string,
@@ -74,7 +76,7 @@ export type Unit = {
   upgrades?: Upgrades,
 };
 
-export type UnitType = 'Trooper' | 'Vehicle';
+export type UnitType = 'Trooper' | 'Emplacement Trooper' | 'Vehicle';
 
 export type Upgrade = {
   ldf: string,

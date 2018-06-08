@@ -10,7 +10,7 @@ const upgrades: Upgrade[] = [
     points: 3,
     keywords: [
       {
-        name: 'You gain <strong>Expert Climber</strong>',
+        name: 'You gain <strong>EXPERT CLIMBER</strong>',
         description:
           'While clambering, do not roll defense dice or suffer wounds.',
       },
@@ -24,7 +24,7 @@ const upgrades: Upgrade[] = [
     points: 6,
     keywords: [
       {
-        name: 'You gain <strong>Precise 1</strong>',
+        name: 'You gain <strong>PRECISE 1</strong>',
         description:
           'When you spend an aim token, reroll up to 1 additional die.',
       },
@@ -38,7 +38,7 @@ const upgrades: Upgrade[] = [
     points: 3,
     keywords: [
       {
-        name: 'You gain <strong>Unhindered</strong>',
+        name: 'You gain <strong>UNHINDERED</strong>',
         description: 'You ignore the effects of difficult terrain.',
       },
     ],

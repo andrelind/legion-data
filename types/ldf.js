@@ -1,5 +1,5 @@
 // @flow
-import type { Side } from './types';
+import type { Side } from '../types';
 
 export type ArmyLDF = {
   uid: string,

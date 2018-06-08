@@ -19,6 +19,16 @@ const upgrades: Upgrade[] = [
     description:
       'While you are defending, each friendly corps trooper unit at range 1 gains Guardian 1 (When a friendly unit at range 1 is defending against a ranged attack, you may choose 1. For each result chosen, roll a defense die as though you were the defender.)',
   },
+  {
+    ldf: 'improvisedorders',
+    name: 'Improvised Orders',
+    side: 'neutral',
+    slot: 'Command',
+    points: 10,
+    exhaust: true,
+    description:
+      'After an order token is drawn from your order pool, you may draw a second order token, choose 1 to use and shuffle the other back into your order pool. During the End Phase, ready this card, if able.',
+  },
 ];
 
 export default upgrades;

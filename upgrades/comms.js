@@ -20,6 +20,16 @@ const upgrades: Upgrade[] = [
     description:
       'During the Command Phase, you may be issued orders as though you are in range of the nominated commander.',
   },
+  {
+    ldf: 'hquplink',
+    name: 'HQ Uplink',
+    side: 'neutral',
+    slot: 'Comms',
+    points: 10,
+    exhaust: true,
+    description:
+      'During the Issue Orders Step of the Command Phase, issue an order to yourself.',
+  },
 ];
 
 export default upgrades;
