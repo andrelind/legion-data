@@ -17,7 +17,7 @@ const upgrades: Upgrade[] = [
     slot: 'Command',
     points: 5,
     description:
-      'While you are defending, each friendly corps trooper unit at range 1 gains Guardian 1 (When a friendly unit at range 1 is defending against a ranged attack, you may choose 1. For each result chosen, roll a defense die as though you were the defender.)',
+      'While you are defending, each friendly corps trooper unit at range 1 gains <strong>GUARDIAN 1</strong> (When a friendly unit at range 1 is defending against a ranged attack, you may choose 1 [hit] result. For each result chosen, roll a defense die as though you were the defender.)',
   },
   {
     ldf: 'improvisedorders',

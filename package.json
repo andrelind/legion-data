@@ -1,6 +1,6 @@
 {
   "name": "legion-data",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "An easy-to-use collection of data for Star Wars: Legion game by Fantasy Flight Games",
   "main": "index.js",
   "scripts": {
