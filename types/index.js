@@ -75,6 +75,7 @@ export type Unit = {
   keywords: Keyword[],
   weapons: Weapon[],
   upgrades?: Upgrades,
+  commandCards?: CommandCard[],
 };
 
 export type UnitType = 'Trooper' | 'Emplacement Trooper' | 'Vehicle';
@@ -112,4 +113,13 @@ export type Weapon = {
   range: { from: number, to?: number },
   dice: AttackDice,
   keywords?: string[],
+};
+
+export type CommandCard = {
+  ldf: string,
+  name: string,
+  pips: number,
+  orders: string,
+  description?: string,
+  weapon?: Weapon,
 };
