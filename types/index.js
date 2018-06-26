@@ -75,7 +75,7 @@ export type Unit = {
   keywords: Keyword[],
   weapons: Weapon[],
   upgrades?: Upgrades,
-  commandCards?: CommandCard[],
+  commandCards?: string[],
 };
 
 export type UnitType = 'Trooper' | 'Emplacement Trooper' | 'Vehicle';
