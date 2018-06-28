@@ -13,6 +13,7 @@ export type ArmyLDF = {
   special: UnitLDF[],
   support: UnitLDF[],
   heavy: UnitLDF[],
+  commandCards: string[],
 };
 
 export type UnitLDF = {

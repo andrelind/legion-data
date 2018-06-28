@@ -49,6 +49,7 @@ export type Army = {
   special: Unit[],
   support: Unit[],
   heavy: Unit[],
+  commandCards: CommandCard[],
 };
 
 export type Surge = { attack?: 'hit' | 'crit', defense?: 'block' };
