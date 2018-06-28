@@ -150,3 +150,5 @@ const cards: CommandCard[] = [
       'When an enemy unit performs an attack, it must attack a trooper unit that has a faceup order token, if available.',
   },
 ];
+
+export default cards;
