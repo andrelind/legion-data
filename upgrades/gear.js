@@ -43,6 +43,21 @@ const upgrades: Upgrade[] = [
       },
     ],
   },
+  {
+    ldf: 'emergencystims',
+    name: 'Emergency Stims',
+    side: 'neutral',
+    slot: 'Gear',
+    points: 8,
+    exhaust: true,
+    keywords: [
+      {
+        name: '-',
+        description:
+          'During an attack, when you would suffer wounds, prevent up to 2 wounds and place an equal number of wound tokens on this card instead. If you do, at the end of your activation, discard each token on this card and suffer wounds equal to the number of tokens discarded.',
+      },
+    ],
+  },
 ];
 
 export default upgrades;

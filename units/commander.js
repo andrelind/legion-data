@@ -266,7 +266,54 @@ const units: Unit[] = [
         keywords: ['Pierce 2'],
       },
     ],
-    commandCards: ['sorryaboutthemess', 'recklessdiversion'],
+    commandCards: ['sorryaboutthemess', 'recklessdiversion', 'changeofplans'],
+  },
+  {
+    ldf: 'emperorpalpatine',
+    name: 'Emperor Palpatine',
+    // subtitle: '',
+    unique: true,
+    side: 'dark',
+    type: 'Trooper',
+    points: 210,
+    rank: 'Commander',
+    minis: 1,
+    wounds: 5,
+    courage: 4,
+    defense: 'red',
+    surge: { attack: 'crit', defense: 'block' },
+    speed: 1,
+    slots: ['Force', 'Force', 'Force', 'Command'],
+    keywords: [
+      {
+        name: 'Pulling the Strings',
+        description:
+          'Choose a friendly trooper unit at range 1-2. That unit may perform a free attack action of a free move action.',
+      },
+      {
+        name: 'Entourage: Imperial Royal Guards',
+        description:
+          'While building an army, ignore the rank of 1 Imperial Royal Guards unit. During the Command Phase, you may issue an order to a friendly Imperial Royal Guards unit at range 1-2.',
+      },
+      {
+        name: 'Immune: Pierce',
+        description: 'Pierce cannot be used againt you.',
+      },
+      {
+        name: 'Master of the Force 2',
+        description:
+          'During the End Phase, you may ready 2 of your Force upgrade cards.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Force Lightning',
+        range: { from: 0, to: 2 },
+        dice: { red: 2, black: 2, white: 2 },
+        keywords: ['Pierce 2', 'Suppressive'],
+      },
+    ],
+    // commandCards: ['sorryaboutthemess', 'recklessdiversion', 'changeofplans'],
   },
 ];
 

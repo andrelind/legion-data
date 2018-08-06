@@ -149,6 +149,14 @@ const cards: CommandCard[] = [
     description:
       'When an enemy unit performs an attack, it must attack a trooper unit that has a faceup order token, if available.',
   },
+  {
+    ldf: 'changeofplans',
+    name: 'Change of Plans',
+    pips: 3,
+    orders: 'Han Solo and 2 Units',
+    description:
+      'When this card is revealed, you may discard it to return an opponents command card to their hand. If you do, return to the Select Command Card step. That opponent cannot select the command card that was returned to their hand.',
+  },
 ];
 
 export default cards;

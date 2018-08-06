@@ -196,6 +196,7 @@ const sources: Source[] = [
       upgrades: {
         commandingpresence: 1,
         esteemedleader: 1,
+        environmentalgear: 1,
       },
     },
   },
@@ -205,10 +206,16 @@ const sources: Source[] = [
     wave: 3,
     released: false,
     contents: {
-      units: { rebelcommandos: 1 },
+      units: {
+        rebelcommandos: 1,
+        rebelcommandosstriketeam: 1,
+      },
       upgrades: {
         duckandcover: 1,
         hquplink: 1,
+        emergencystims: 1,
+        protonchargesaboteur: 1,
+        dh447sniper: 1,
       },
     },
   },
@@ -222,6 +229,7 @@ const sources: Source[] = [
       upgrades: {
         improvisedorders: 1,
         duckandcover: 1,
+        emergencystims: 1,
       },
     },
   },
@@ -234,7 +242,7 @@ const sources: Source[] = [
       units: { scouttroopers: 1 },
       upgrades: {
         duckandcover: 1,
-        hquplink: 1
+        hquplink: 1,
       },
     },
   },
@@ -246,7 +254,7 @@ const sources: Source[] = [
     contents: {
       units: { bobafett: 1 },
       upgrades: {
-        hunter: 1
+        hunter: 1,
       },
     },
   },
@@ -260,7 +268,7 @@ const sources: Source[] = [
       upgrades: {
         hquplink: 1,
         overchargedgenerator: 1,
-        barragegenerator: 1
+        barragegenerator: 1,
       },
     },
   },
@@ -274,8 +282,28 @@ const sources: Source[] = [
       upgrades: {
         hquplink: 1,
         overchargedgenerator: 1,
-        barragegenerator: 1
+        barragegenerator: 1,
       },
+    },
+  },
+  {
+    ldf: 'emperorpalpatinecommander',
+    name: 'Emperor Palpatine Commander',
+    wave: 4,
+    released: false,
+    contents: {
+      units: { emperorpalpatine: 1 },
+      upgrades: {},
+    },
+  },
+  {
+    ldf: 'imperialroyalguardsunit',
+    name: 'Imperial Royal Guards Unit',
+    wave: 4,
+    released: false,
+    contents: {
+      units: { imperialroyalguards: 1 },
+      upgrades: {},
     },
   },
 ];
