@@ -56,6 +56,14 @@ const upgrades: Upgrade[] = [
     description:
       'Choose an enemy trooper unit at range 1-2. It gains 2 suppression tokens.',
   },
+  {
+    ldf: 'anger',
+    name: 'Anger',
+    side: 'dark',
+    slot: 'Force',
+    points: 5,
+    description: 'After you suffer 1 or more wounds, gain 1 aim token.',
+  },
 ];
 
 export default upgrades;

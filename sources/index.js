@@ -204,7 +204,7 @@ const sources: Source[] = [
     ldf: 'rebelcommandosunit',
     name: 'Rebel Commandos Unit',
     wave: 3,
-    released: false,
+    released: true,
     contents: {
       units: {
         rebelcommandos: 1,
@@ -223,7 +223,7 @@ const sources: Source[] = [
     ldf: 'hansolocommander',
     name: 'Han Solo Commander',
     wave: 3,
-    released: false,
+    released: true,
     contents: {
       units: { hansolo: 1 },
       upgrades: {
@@ -237,12 +237,18 @@ const sources: Source[] = [
     ldf: 'scouttroopersunit',
     name: 'Scout Troopers Unit',
     wave: 3,
-    released: false,
+    released: true,
     contents: {
-      units: { scouttroopers: 1 },
+      units: {
+        scouttroopers: 1,
+        scouttroopersstriketeam: 1,
+      },
       upgrades: {
         duckandcover: 1,
         hquplink: 1,
+        emergencystims: 1,
+        sonicchargesaboteur: 1,
+        dlt19xsniper: 1,
       },
     },
   },
@@ -250,11 +256,13 @@ const sources: Source[] = [
     ldf: 'bobafettoperative',
     name: 'Boba Fett Operative',
     wave: 3,
-    released: false,
+    released: true,
     contents: {
       units: { bobafett: 1 },
       upgrades: {
         hunter: 1,
+        emergencystims: 1,
+        duckandcover: 1,
       },
     },
   },
@@ -262,7 +270,7 @@ const sources: Source[] = [
     ldf: 'ewebheavyblasterteamunit',
     name: 'E-Web Heavy Blaster Team Unit',
     wave: 3,
-    released: false,
+    released: true,
     contents: {
       units: { ewebheavyblasterteam: 1 },
       upgrades: {
@@ -276,7 +284,7 @@ const sources: Source[] = [
     ldf: '14fdlasercannonteamunit',
     name: '1.4 FD Laser Cannon Unit',
     wave: 3,
-    released: false,
+    released: true,
     contents: {
       units: { '14fdlasercannonteam': 1 },
       upgrades: {
@@ -290,20 +298,30 @@ const sources: Source[] = [
     ldf: 'emperorpalpatinecommander',
     name: 'Emperor Palpatine Commander',
     wave: 4,
-    released: false,
+    released: true,
     contents: {
       units: { emperorpalpatine: 1 },
-      upgrades: {},
+      upgrades: {
+        anger: 1,
+        forcechoke: 1,
+        improvisedorders: 1,
+      },
     },
   },
   {
     ldf: 'imperialroyalguardsunit',
     name: 'Imperial Royal Guards Unit',
     wave: 4,
-    released: false,
+    released: true,
     contents: {
       units: { imperialroyalguards: 1 },
-      upgrades: {},
+      upgrades: {
+        reconintel: 1,
+        fragmentationgrenades: 1,
+        electrostaffguard: 1,
+        tenacity: 1,
+        hunter: 1,
+      },
     },
   },
 ];
