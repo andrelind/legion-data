@@ -157,6 +157,28 @@ const cards: CommandCard[] = [
     description:
       'When this card is revealed, you may discard it to return an opponents command card to their hand. If you do, return to the Select Command Card step. That opponent cannot select the command card that was returned to their hand.',
   },
+  {
+    ldf: 'andnowyouwilldie',
+    name: 'And Now... You Will Die',
+    pips: 1,
+    orders: 'Emperor Palpatine',
+    description:
+      "During Emperor Palpatine's activation, he may suffer 1 wound and gain 1 suppression token to perform an attack. He may do this any number of times. After Emperor Palpatine performs an attack, the defender gains 1 immobilized token.",
+  },
+  {
+    ldf: 'giveintoyouranger',
+    name: 'Give in to Your Anger',
+    pips: 2,
+    orders: 'Emperor Palpatine',
+    description:
+      "Before an opponent would activate their first unit, you may choose an enemy trooper unit. If you do, your opponent must activate that unit instead. Assign it an order token from its order pool unless it has a faceup order token. At the end of that unit's activation, if it did not perform an attack, it gains 4 suppression tokens.",
+  },
+  {
+    ldf: 'anentirelegion',
+    name: 'An Entire Legion',
+    pips: 3,
+    orders: 'Each eligible Unit',
+  },
 ];
 
 export default cards;
