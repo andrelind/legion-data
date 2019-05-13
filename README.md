@@ -53,6 +53,7 @@ See the [Releases tab](https://github.com/andrelind/legion-data/releases) in Git
 ## Contributors
 
 - André Lind (andre@lindapp.se)
+- Steve Good (sgood@lanctr.com)
 
 ## License
 MIT
