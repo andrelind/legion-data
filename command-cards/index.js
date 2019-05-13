@@ -213,6 +213,30 @@ const cards: CommandCard[] = [
       keywords: ['Blast', 'Impact 2'],
     },
   },
+  {
+    ldf: 'commoncause',
+    name: 'Common Cause',
+    pips: 1,
+    orders: 'Chewbacca & Luke Skywalker',
+    description:
+      'After Chewbacca activates, if Luke Skywalker has a faceup order token, he may activate. After Luke Skywalker activates, if Chewbacca has a faceup order token, he may activate.',
+  },
+  {
+    ldf: 'brainsandbrawn',
+    name: 'Brains and Brawn',
+    pips: 2,
+    orders: 'Chewbacca & Leia Organa',
+    description:
+      'While Leia Organa is performing a ranged attack, if Chewbacca is not engaged and has line of sight to and is at range 1-3 of the defender, add one of his ranged weapons to the attack pool.',
+  },
+  {
+    ldf: 'notoriousscoundrels',
+    name: 'Notorious Scoundrels',
+    pips: 3,
+    orders: 'Chewbacca & Han Solo',
+    description:
+      "Choose one of Han Solo's command cards in your discard pile. Return that card to your hand.",
+  },
 ];
 
 export default cards;
