@@ -186,6 +186,55 @@ const units: Array<Unit> = [
     ],
   },
   {
+    ldf: 'wookieewarriors',
+    name: 'Wookiee Warriors',
+    side: 'light',
+    points: 75,
+    rank: 'Special Forces',
+    type: 'Trooper',
+    minis: 3,
+    wounds: 3,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'hit' },
+    speed: 2,
+    slots: ['Heavy Weapon', 'Elite', 'Elite', 'Gear', 'Grenades'],
+    keywords: [
+      {
+        name: 'Charge',
+        description:
+          'After you perform a move action, you may perform a free melee attack action.',
+      },
+      {
+        name: 'Expert Climber',
+        description:
+          'While clambering, do not roll defense dice or suffer wounds.',
+      },
+      {
+        name: 'Indomitable',
+        description:
+          'During your Rally step, roll red defense dice instead of white.',
+      },
+      {
+        name: 'Unhinder',
+        description:
+          'You ignore the effects of difficult terrain.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Ryyk Blade',
+        range: { from: 0 },
+        dice: { black: 2 },
+      },
+      {
+        name: 'Kashyyyk Pistol',
+        range: { from: 1, to: 2 },
+        dice: { black: 2, white: 1 },
+      },
+    ],
+  },
+  {
     ldf: 'imperialroyalguards',
     name: 'Imperial Royal Guards',
     side: 'dark',
