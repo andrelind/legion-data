@@ -157,6 +157,86 @@ const cards: CommandCard[] = [
     description:
       'When this card is revealed, you may discard it to return an opponents command card to their hand. If you do, return to the Select Command Card step. That opponent cannot select the command card that was returned to their hand.',
   },
+  {
+    ldf: 'andnowyouwilldie',
+    name: 'And Now... You Will Die',
+    pips: 1,
+    orders: 'Emperor Palpatine',
+    description:
+      "During Emperor Palpatine's activation, he may suffer 1 wound and gain 1 suppression token to perform an attack. He may do this any number of times. After Emperor Palpatine performs an attack, the defender gains 1 immobilized token.",
+  },
+  {
+    ldf: 'giveintoyouranger',
+    name: 'Give in to Your Anger',
+    pips: 2,
+    orders: 'Emperor Palpatine',
+    description:
+      "Before an opponent would activate their first unit, you may choose an enemy trooper unit. If you do, your opponent must activate that unit instead. Assign it an order token from its order pool unless it has a faceup order token. At the end of that unit's activation, if it did not perform an attack, it gains 4 suppression tokens.",
+  },
+  {
+    ldf: 'anentirelegion',
+    name: 'An Entire Legion',
+    pips: 3,
+    orders: 'Each eligible Unit',
+  },
+  {
+    ldf: 'whipcordlauncher',
+    name: 'Whipcord Launcher',
+    pips: 1,
+    orders: 'Boba Fett',
+    description:
+      "Boba Fett can perform moves while engaged with a unit that has 1 or more immobilized tokens. During Boba Fett's activation he gains: [card action] Choose an enemy trooper unit at range 1 and in line of sight. It gains 2 immobilized tokens and 2 suppression tokens.",
+  },
+  {
+    ldf: 'zxflameprojector',
+    name: 'ZX Flame Projector',
+    pips: 2,
+    orders: 'Boba Fett',
+    description:
+      "During Boba Fett's activation he gains the following weapons:",
+    weapon: {
+      range: { from: 0, to: 1 },
+      dice: { red: 1 },
+      keywords: ['Blast', 'Spray'],
+    },
+  },
+  {
+    ldf: 'z6jetpackrocket',
+    name: 'Z-6 Jetpack Rocket',
+    pips: 3,
+    orders: 'Boba Fett',
+    description:
+      "During Boba Fett's activation he gains the following weapons:",
+    weapon: {
+      range: { from: 3, to: 4 },
+      dice: { red: 3 },
+      keywords: ['Blast', 'Impact 2'],
+    },
+  },
+  {
+    ldf: 'commoncause',
+    name: 'Common Cause',
+    pips: 1,
+    orders: 'Chewbacca & Luke Skywalker',
+    description:
+      'After Chewbacca activates, if Luke Skywalker has a faceup order token, he may activate. After Luke Skywalker activates, if Chewbacca has a faceup order token, he may activate.',
+  },
+  {
+    ldf: 'brainsandbrawn',
+    name: 'Brains and Brawn',
+    pips: 2,
+    orders: 'Chewbacca & Leia Organa',
+    description:
+      'While Leia Organa is performing a ranged attack, if Chewbacca is not engaged and has line of sight to and is at range 1-3 of the defender, add one of his ranged weapons to the attack pool.',
+  },
+  {
+    ldf: 'notoriousscoundrels',
+    name: 'Notorious Scoundrels',
+    pips: 3,
+    orders: 'Chewbacca & Han Solo',
+    description:
+      "Choose one of Han Solo's command cards in your discard pile. Return that card to your hand.",
+  },
 ];
 
 export default cards;

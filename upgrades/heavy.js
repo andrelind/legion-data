@@ -303,6 +303,86 @@ const upgrades: Upgrade[] = [
       dice: { red: 1, white: 2 },
     },
   },
+  {
+    ldf: 'electrostaffguard',
+    name: 'Electrostaff Guard',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 25,
+    restrictions: {
+      name: 'Imperial Royal Guards only',
+      ldf: 'imperialroyalguards',
+    },
+    description:
+      'Add 1 electrostaff guard mini. While defending against a melee attack, you gain <strong>Immune: Pierce</strong> (Pierce cannot be used against you.)',
+    keywords: [
+      {
+        name: 'Sidearm: Melee',
+        description:
+          'While performing a melee attack, this model can only use the weapon on this card.',
+      },
+    ],
+    weapon: {
+      range: { from: 0 },
+      dice: { black: 2 },
+    },
+  },
+  {
+    ldf: 'dlt19xsniper',
+    name: 'DLT-19x Sniper',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 28,
+    restrictions: { name: 'Scout Troopers only', ldf: 'scouttroopers' },
+    description: 'Add 1 DLT-19x sniper mini.',
+    keywords: [
+      {
+        name: 'High Velocity',
+        description:
+          'While attacking, if each weapon in your attack pool has <strong>High Velocity</strong>, the defender cannot spend dodge tokens.',
+      },
+      {
+        name: 'Peirce 1',
+        description: 'While attacking, cancel up to 1 [block] result.',
+      },
+    ],
+    weapon: {
+      range: { from: 1 },
+      dice: { black: 2 },
+    },
+  },
+  {
+    ldf: 'sonicchargesaboteur',
+    name: 'Sonic Charge Saboteur',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 26,
+    restrictions: { name: 'Scout Troopers only', ldf: 'scouttroopers' },
+    description: 'Add 1 sonic charge saboteur mini.',
+    keywords: [
+      {
+        name: 'Arm 1: Sonic Charge',
+        description:
+          'Place 1 sonic charge token within range 1 and in line of sifght of your unit leader.',
+      },
+      {
+        name: 'Detonate 1: Sonic Charge',
+      },
+      {
+        name: 'Blast',
+        description: 'Ignore cover.',
+      },
+      {
+        name: 'Suppressive',
+        description:
+          'After you perform an attack, the defender that this weapon was used against gains 1 suppression token.',
+      },
+    ],
+    weapon: {
+      range: { from: 1 },
+      dice: { black: 1, red: 1 },
+    },
+  },
 ];
 
 export default upgrades;

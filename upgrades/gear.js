@@ -58,6 +58,20 @@ const upgrades: Upgrade[] = [
       },
     ],
   },
+  {
+    ldf: 'reconintel',
+    name: 'Recon Intel',
+    side: 'neutral',
+    slot: 'Gear',
+    points: 2,
+    exhaust: false,
+    keywords: [
+      {
+        name: 'You gain <strong>Scout 1</strong>',
+        description: 'After you deploy, you may perform a speed-1 move.',
+      },
+    ],
+  },
 ];
 
 export default upgrades;
