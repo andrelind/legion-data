@@ -324,6 +324,22 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'wookieewarriorsunit',
+    name: 'Wookiee Warriors Unit',
+    wave: 4,
+    released: true,
+    contents: {
+      units: { wookieewarriors: 1 },
+      upgrades: {
+        reconintel: 1,
+        fragmentationgrenades: 1,
+        bowcasterwookiee: 1,
+        tenacity: 1,
+        hunter: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
