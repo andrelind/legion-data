@@ -179,6 +179,40 @@ const cards: CommandCard[] = [
     pips: 3,
     orders: 'Each eligible Unit',
   },
+  {
+    ldf: 'whipcordlauncher',
+    name: 'Whipcord Launcher',
+    pips: 1,
+    orders: 'Boba Fett',
+    description:
+      "Boba Fett can perform moves while engaged with a unit that has 1 or more immobilized tokens. During Boba Fett's activation he gains: [card action] Choose an enemy trooper unit at range 1 and in line of sight. It gains 2 immobilized tokens and 2 suppression tokens.",
+  },
+  {
+    ldf: 'zxflameprojector',
+    name: 'ZX Flame Projector',
+    pips: 2,
+    orders: 'Boba Fett',
+    description:
+      "During Boba Fett's activation he gains the following weapons:",
+    weapon: {
+      range: { from: 0, to: 1 },
+      dice: { red: 1 },
+      keywords: ['Blast', 'Spray'],
+    },
+  },
+  {
+    ldf: 'z6jetpackrocket',
+    name: 'Z-6 Jetpack Rocket',
+    pips: 3,
+    orders: 'Boba Fett',
+    description:
+      "During Boba Fett's activation he gains the following weapons:",
+    weapon: {
+      range: { from: 3, to: 4 },
+      dice: { red: 3 },
+      keywords: ['Blast', 'Impact 2'],
+    },
+  },
 ];
 
 export default cards;
