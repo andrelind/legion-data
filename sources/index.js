@@ -340,6 +340,20 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'chewbaccaoperative',
+    name: 'Chewbacca Operative',
+    wave: 4,
+    released: true,
+    contents: {
+      units: { chewbacca: 1 },
+      upgrades: {
+        emergencystims: 1,
+        tenacity: 1,
+        hunter: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
