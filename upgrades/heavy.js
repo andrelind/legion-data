@@ -383,6 +383,29 @@ const upgrades: Upgrade[] = [
       dice: { black: 1, red: 1 },
     },
   },
+  {
+    ldf: 'bowcasterwookiee',
+    name: 'Bowcaster Wookiee',
+    side: 'light',
+    slot: 'Heavy Weapon',
+    points: 35,
+    restrictions: { name: 'Wookiee Warriors only', ldf: 'bowcasterwookiee' },
+    description: 'Add 1 bowcaster wookiee mini.',
+    keywords: [
+      {
+        name: 'Impact 1',
+        description: 'While attacking a unit that has <strong>armor</strong>, change up to 1 [hit] result to a [crit] result.',
+      },
+      {
+        name: 'Pierce 1',
+        description: 'While attacking, cancel up to 1 [block] result.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { red: 1, white: 1 },
+    },
+  },
 ];
 
 export default upgrades;
