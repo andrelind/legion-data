@@ -234,6 +234,50 @@ const units: Array<Unit> = [
     ],
   },
   {
+    ldf: 'imperialroyalguards',
+    name: 'Imperial Royal Guards',
+    side: 'dark',
+    points: 75,
+    rank: 'Special Forces',
+    type: 'Trooper',
+    minis: 3,
+    wounds: 2,
+    courage: 2,
+    defense: 'red',
+    surge: {},
+    speed: 2,
+    slots: ['Heavy Weapon', 'Elite', 'Comms', 'Gear', 'Grenades'],
+    keywords: [
+      {
+        name: 'Charge',
+        description:
+          'After you perform a move action, you may perform a free melee attack action.',
+      },
+      {
+        name: 'Disciplined 2',
+        description:
+          'When you are issued an order, you may remove up to 2 suppression tokens.',
+      },
+      {
+        name: 'Guardian 2',
+        description:
+          'When a friendly unit at range 1 is defending against a ranged attack, you may choose to 2 hit results. For each result chosen, roll a defence die as though you were the defender.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Force Pike',
+        range: { from: 0 },
+        dice: { red: 1, black: 1 },
+      },
+      {
+        name: 'EC-17 Holdout Blaster',
+        range: { from: 1, to: 2 },
+        dice: { black: 2 },
+      },
+    ],
+  },
+  {
     ldf: 'rebelpathfinders',
     name: 'Rebel Pathfinders',
     side: 'light',
@@ -285,46 +329,57 @@ const units: Array<Unit> = [
     ],
   },
   {
-    ldf: 'imperialroyalguards',
-    name: 'Imperial Royal Guards',
+    ldf: 'imperialdeathtroopers',
+    name: 'Imperial Death Troopers',
     side: 'dark',
-    points: 75,
+    points: 76,
     rank: 'Special Forces',
     type: 'Trooper',
-    minis: 3,
-    wounds: 2,
+    minis: 4,
+    wounds: 1,
     courage: 2,
-    defense: 'red',
-    surge: {},
+    defense: 'white',
+    surge: { attack: 'hit', defend: 'block' },
     speed: 2,
-    slots: ['Heavy Weapon', 'Elite', 'Comms', 'Gear', 'Grenades'],
+    slots: [
+      'Armament',
+      'Comms',
+      'Gear',
+      'Grenades',
+      'Heavy Weapon',
+      'Training',
+    ],
     keywords: [
       {
-        name: 'Charge',
+        name: 'Disciplined 1',
         description:
-          'After you perform a move action, you may perform a free melee attack action.',
+          'When you are issued an order, you may remove up to 1 suppression token.',
       },
       {
-        name: 'Disciplined 2',
+        name: 'Precise 2',
         description:
-          'When you are issued an order, you may remove up to 2 suppression tokens.',
+          'When you spend an aim token, reroll up to 2 additional dice.',
       },
       {
-        name: 'Guardian 2',
-        description:
-          'When a friendly unit at range 1 is defending against a ranged attack, you may choose to 2 hit results. For each result chosen, roll a defence die as though you were the defender.',
+        name: 'Ready 1',
+        description: 'After you perform a standby action, gain 1 aim token.',
       },
     ],
     weapons: [
       {
-        name: 'Force Pike',
+        name: 'Close Quarters Combat',
         range: { from: 0 },
-        dice: { red: 1, black: 1 },
+        dice: { red: 1 },
       },
       {
-        name: 'EC-17 Holdout Blaster',
+        name: 'SE-14r Light Blaster',
         range: { from: 1, to: 2 },
-        dice: { black: 2 },
+        dice: { white: 2 },
+      },
+      {
+        name: 'E-11D Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { black: 1 },
       },
     ],
   },
