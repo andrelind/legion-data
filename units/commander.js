@@ -360,6 +360,51 @@ const units: Unit[] = [
       },
     ],
   },
+  {
+    ldf: 'imperialofficer',
+    name: 'Imperial Office',
+    unique: false,
+    side: 'dark',
+    type: 'Trooper',
+    points: 50,
+    rank: 'Commander',
+    minis: 1,
+    wounds: 4,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'hit', defense: 'block' },
+    speed: 2,
+    slots: ['Command', 'Gear'],
+    keywords: [
+      {
+        name: 'Spotter 1',
+        decription:
+          'Choose 1 friendly unit at range 1. That unit gains an aim token.',
+      },
+      {
+        name: 'Inspire 1',
+        description:
+          'After your Rally step, remove 1 suppression token from another friendly unit at range 1-2.',
+      },
+      {
+        name: 'Sharpshooter 1',
+        description:
+          'While performing a ranged attack, reduce the defender’s cover by 1.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: "Officer's RK-3 Blaster Pistol",
+        range: { from: 1, to: 2 },
+        dice: { black: 1, white: 1 },
+      },
+    ],
+  },
 ];
 
 export default units;
