@@ -313,7 +313,7 @@ const units: Unit[] = [
         keywords: ['Pierce 2', 'Suppressive'],
       },
     ],
-    // commandCards: ['sorryaboutthemess', 'recklessdiversion', 'changeofplans'],
+    commandCards: ['andnowyouwilldie', 'giveintoyouranger', 'anentirelegion'],
   },
 ];
 
