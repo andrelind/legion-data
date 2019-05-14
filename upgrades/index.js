@@ -2,6 +2,7 @@
 
 import type { Slot, Upgrade } from '../types';
 
+import Armament from './armament';
 import Command from './command';
 import Comms from './comms';
 import Elite from './elite';
@@ -15,6 +16,7 @@ import Personnel from './personnel';
 import Pilot from './pilot';
 
 export default {
+  Armament,
   Command,
   Comms,
   Elite,

@@ -405,6 +405,46 @@ const units: Unit[] = [
       },
     ],
   },
+  {
+    ldf: 'jynerso',
+    name: 'Jyn Erso',
+    unique: false,
+    side: 'light',
+    type: 'Trooper',
+    points: 130,
+    rank: 'Commander',
+    minis: 1,
+    wounds: 6,
+    courage: 3,
+    defense: 'white',
+    surge: { attack: 'crit', defense: 'block' },
+    speed: 2,
+    slots: ['Command', 'Gear', 'Elite', 'Armament'],
+    keywords: [
+      {
+        name: 'Quick Thinking',
+        decription: 'Gain 1 aim token and 1 dodge token.',
+      },
+      {
+        name: 'Danger Sense 4',
+        description:
+          'You may choose not to remove your suppression tokens. While defending against a ranged attack, roll 1 extra defense die for each suppression token you have, adding up to 4 extra dice.',
+      },
+      {
+        name: 'Infiltrate',
+        description:
+          'You may deploy anywhere beyond range 3 of all enemy units.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Collapsible Tonfa',
+        range: { from: 0 },
+        dice: { black: 4 },
+        keywords: ['Suppressive'],
+      },
+    ],
+  },
 ];
 
 export default units;
