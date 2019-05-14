@@ -405,6 +405,24 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'rebelpathfindersunit',
+    name: 'Rebel Pathfinders Unit',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { rebelpathfinders: 1 },
+      upgrades: {
+        commsrelay: 1,
+        fragmentationgrenades: 1,
+        bistan: 1,
+        pao: 1,
+        duckandcover: 1,
+        overwatch: 1,
+        a300shortrangelongrangeconfig: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
