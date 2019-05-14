@@ -64,6 +64,7 @@ const units: Array<Unit> = [
         keywords: ['Impact 1'],
       },
     ],
+    commandCards: ['whipcordlauncher', 'zxflameprojector', 'z6jetpackrocket'],
   },
   {
     ldf: 'chewbacca',
@@ -118,6 +119,7 @@ const units: Array<Unit> = [
         keywords: ['Impact 1', 'Pierce 1'],
       },
     ],
+    commandCards: ['commoncause', 'brainsandbrawn', 'notoriousscoundrels'],
   },
 ];
 
