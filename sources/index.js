@@ -354,6 +354,42 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'rebelspecialistspersonnel',
+    name: 'Rebel Specialists Personnel',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { rebelofficer: 1 },
+      upgrades: {
+        commandingpresence: 1,
+        commsrelay: 1,
+        reconintel: 1,
+        rebelofficer: 1,
+        rebelcommstechnician: 1,
+        r5astromechdroid: 1,
+        '21bmedicaldroid': 1,
+      },
+    },
+  },
+  {
+    ldf: 'imperialspecialistspersonnel',
+    name: 'Imperial Specialists Personnel',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { imperialofficer: 1 },
+      upgrades: {
+        commandingpresence: 1,
+        commsrelay: 1,
+        reconintel: 1,
+        imperialofficer: 1,
+        imperialcommstechnician: 1,
+        r4astromechdroid: 1,
+        fx9medicaldroid: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
