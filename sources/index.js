@@ -437,6 +437,25 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'imperialdeathtroopersunit',
+    name: 'Imperial Death Troopers Unit',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { imperialdeathtroopers: 1 },
+      upgrades: {
+        e11dgrenadelauncherfocusedfireconfig: 1,
+        commsrelay: 1,
+        environmentalgear: 1,
+        fragmentationgrenades: 1,
+        dtf16: 1,
+        dlt19dtrooper: 1,
+        duckandcover: 1,
+        overwatch: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
