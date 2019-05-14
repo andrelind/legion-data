@@ -408,7 +408,7 @@ const units: Unit[] = [
   {
     ldf: 'jynerso',
     name: 'Jyn Erso',
-    unique: false,
+    unique: true,
     side: 'light',
     type: 'Trooper',
     points: 130,
@@ -442,6 +442,57 @@ const units: Unit[] = [
         range: { from: 0 },
         dice: { black: 4 },
         keywords: ['Suppressive'],
+      },
+    ],
+  },
+  {
+    ldf: 'directororsonkrennic',
+    name: 'Director Orson Krennic',
+    unique: true,
+    side: 'light',
+    type: 'Trooper',
+    points: 90,
+    rank: 'Commander',
+    minis: 1,
+    wounds: 6,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'crit', defense: 'block' },
+    speed: 2,
+    slots: ['Command', 'Command', 'Gear'],
+    keywords: [
+      {
+        name: 'Compel',
+        decription:
+          'After another friendly unit at range 1-2 rallies, if it is suppressed but not panicked, it may gain 1 suppression token to perform a free move action.',
+      },
+      {
+        name: 'Cunning',
+        description:
+          'When your commander specific command cards are played, if there would be a bid for priority, treat your command card as though it had 1 fewer pip.',
+      },
+      {
+        name: 'Entourage: Imperial Death Troopers',
+        description:
+          'While building an army, ignore the rank of 1 Imperial Death Troopers unit. During the Command Phase, you may issue an order to a friendly Imperial Death Troopers unit at range 1-2.',
+      },
+      {
+        name: 'Sharpshooter 1',
+        description:
+          'While performing a ranged attack, reduce the defender’s cover by 1.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: "Krennic's DT-29 Blaster Pistol",
+        range: { from: 1, to: 2 },
+        dice: { white: 1, black: 1, red: 1 },
+        keywords: ['Pierce 1'],
       },
     ],
   },
