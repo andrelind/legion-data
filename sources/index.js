@@ -423,6 +423,20 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'directororsonkrenniccommander',
+    name: 'Director Orson Krennic Commander',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { directororsonkrennic: 1 },
+      upgrades: {
+        strictorders: 1,
+        esteemedleader: 1,
+        reconintel: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
