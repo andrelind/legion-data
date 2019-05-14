@@ -390,6 +390,21 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'jynersocommander',
+    name: 'Jyn Erso Commander',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { jynerso: 1 },
+      upgrades: {
+        strictorders: 1,
+        reconintel: 1,
+        a180pistolrifleconfig: 1,
+        duckandcover: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
