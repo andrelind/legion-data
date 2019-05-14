@@ -234,6 +234,57 @@ const units: Array<Unit> = [
     ],
   },
   {
+    ldf: 'rebelpathfinders',
+    name: 'Rebel Pathfinders',
+    side: 'light',
+    points: 60,
+    rank: 'Special Forces',
+    type: 'Trooper',
+    minis: 4,
+    wounds: 1,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'hit', defend: 'block' },
+    speed: 2,
+    slots: [
+      'Armament',
+      'Comms',
+      'Gear',
+      'Grenades',
+      'Heavy Weapon',
+      'Training',
+    ],
+    keywords: [
+      {
+        name: 'Danger Sense 3',
+        description:
+          'You may choose not to remove your suppression tokens. While defending against a ranged attack, roll 1 extra defense die for each suppression token you have, adding up to 3 extra dice.',
+      },
+      {
+        name: 'Dauntless',
+        description:
+          'After you rally, if you are suppressed but not panicked, you may gain 1 suppression token to perform a free move action.',
+      },
+      {
+        name: 'Infiltrate',
+        description:
+          'You may deploy anywhere beyond range 3 of all enemy units.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: 'A-300 Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { white: 2 },
+      },
+    ],
+  },
+  {
     ldf: 'imperialroyalguards',
     name: 'Imperial Royal Guards',
     side: 'dark',
