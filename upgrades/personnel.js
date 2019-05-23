@@ -130,6 +130,16 @@ const upgrades: Upgrade[] = [
       },
     ],
   },
+  {
+    ldf: 'imperialcommstechnician',
+    name: 'Imperial Comms Technician',
+    side: 'dark',
+    slot: 'Personnel',
+    points: 10,
+    restrictions: { name: 'Imperial only', ldf: 'empire' },
+    description:
+      'Add 1 Imperial comms technician mini. You gain a comms upgrade icon. You must equip a comms upgrade card.',
+  },
 ];
 
 export default upgrades;
