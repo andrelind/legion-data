@@ -1,5 +1,52 @@
 import type { Upgrade } from '../types';
 
-const upgrades: Upgrade[] = [];
+const upgrades: Upgrade[] = [
+  {
+    ldf: 'a180pistolconfig',
+    name: 'A-180 Pistol Config',
+    points: 0,
+    restrictions: { name: 'Jyn Erso only', ldf: 'jynerso' },
+    side: 'light',
+    slot: 'Armament',
+    weapon: {
+      name: 'A-180 Pistol Config',
+      range: { from: 1, to: 2 },
+      dice: { red: 2, white: 1 },
+      keywords: [
+        {
+          name: 'Pierce 1',
+          description: 'While attacking, cancel up to 1 [block] result.',
+        },
+        {
+          name: 'Reconfigure',
+          description: 'When you recover, you may flip this card.',
+        },
+      ],
+    },
+  },
+  {
+    ldf: 'a180rifleconfig',
+    name: 'A-180 Rifle Config',
+    points: 0,
+    restrictions: { name: 'Jyn Erso only', ldf: 'jynerso' },
+    side: 'light',
+    slot: 'Armament',
+    weapon: {
+      name: 'A-180 Rifle Config',
+      range: { from: 1, to: 3 },
+      dice: { black: 2, white: 1 },
+      keywords: [
+        {
+          name: 'Pierce 1',
+          description: 'While attacking, cancel up to 1 [block] result.',
+        },
+        {
+          name: 'Reconfigure',
+          description: 'When you recover, you may flip this card.',
+        },
+      ],
+    },
+  },
+];
 
 export default upgrades;
