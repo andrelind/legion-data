@@ -38,6 +38,26 @@ const upgrades: Upgrade[] = [
     restrictions: { name: 'Fleet Troopers only', ldf: 'fleettroopers' },
     description: 'Add 1 Fleet Trooper mini.',
   },
+  {
+    ldf: 'rebelofficer',
+    name: 'Rebel Officer',
+    side: 'light',
+    slot: 'Personnel',
+    points: 19,
+    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    description: 'Add 1 Rebel Officer mini.',
+    keywords: [
+      {
+        name: 'Inspire 1',
+        description:
+          'After your Rally step, remove up to 1 suppression token from another friendly unit at range 1-2.',
+      },
+      {
+        name: 'Leader',
+        description: 'This mini is your unit leader.',
+      },
+    ],
+  },
 ];
 
 export default upgrades;
