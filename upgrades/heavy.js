@@ -394,7 +394,8 @@ const upgrades: Upgrade[] = [
     keywords: [
       {
         name: 'Impact 1',
-        description: 'While attacking a unit that has <strong>armor</strong>, change up to 1 [hit] result to a [crit] result.',
+        description:
+          'While attacking a unit that has <strong>armor</strong>, change up to 1 [hit] result to a [crit] result.',
       },
       {
         name: 'Pierce 1',
@@ -404,6 +405,31 @@ const upgrades: Upgrade[] = [
     weapon: {
       range: { from: 1, to: 3 },
       dice: { red: 1, white: 1 },
+    },
+  },
+  {
+    ldf: 'bistan',
+    name: 'Bistan',
+    side: 'light',
+    slot: 'Heavy Weapon',
+    points: 32,
+    restrictions: { name: 'Rebel Pathfinders only', ldf: 'rebelpathfinders' },
+    description: 'Add 1 Bistan mini.',
+    exhaust: true,
+    keywords: [
+      {
+        name: 'Impact 1',
+        description:
+          'While attacking a unit that has <strong>armor</strong>, change up to 1 [hit] result to a [crit] result.',
+      },
+      {
+        name: 'Ion 1',
+        description: 'A vehicle wounded by this attack gains 1 ion token.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { black: 1, white: 4 },
     },
   },
 ];
