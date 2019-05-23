@@ -110,6 +110,26 @@ const upgrades: Upgrade[] = [
       },
     ],
   },
+  {
+    ldf: 'imperialofficer',
+    name: 'Imperial Officer',
+    side: 'dark',
+    slot: 'Personnel',
+    points: 20,
+    restrictions: { name: 'Imperial only', ldf: 'empire' },
+    description: 'Add 1 Imperial Officer mini.',
+    keywords: [
+      {
+        name: 'Inspire 1',
+        description:
+          'After your Rally step, remove up to 1 suppression token from another friendly unit at range 1-2.',
+      },
+      {
+        name: 'Leader',
+        description: 'This mini is your unit leader.',
+      },
+    ],
+  },
 ];
 
 export default upgrades;
