@@ -68,6 +68,27 @@ const upgrades: Upgrade[] = [
     description:
       'Add 1 Rebel comms technician mini. You gain a comms upgrade icon. You must equip a comms upgrade card.',
   },
+  {
+    ldf: 'r5astromechdroid',
+    name: 'R5 Astromech Droid',
+    side: 'light',
+    slot: 'Personnel',
+    points: 8,
+    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    description: 'Add 1 R5 astromech mini.',
+    keywords: [
+      {
+        name: 'Repair 1: Capacity 2',
+        description:
+          'Place a wound token on this card to remove 1 wound, ion, or vehicle damage token from a friendly ground vehicle at range 1 and in line of sight. Limit 2 tokens.',
+      },
+      {
+        name: 'Noncombatant',
+        description:
+          'The mini added by that upgrade cannot use any weapons and wounds must be assigned to other non-unit leader minis first.',
+      },
+    ],
+  },
 ];
 
 export default upgrades;
