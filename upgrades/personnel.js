@@ -58,6 +58,16 @@ const upgrades: Upgrade[] = [
       },
     ],
   },
+  {
+    ldf: 'rebelcommstechnician',
+    name: 'Rebel Comms Technician',
+    side: 'light',
+    slot: 'Personnel',
+    points: 9,
+    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    description:
+      'Add 1 Rebel comms technician mini. You gain a comms upgrade icon. You must equip a comms upgrade card.',
+  },
 ];
 
 export default upgrades;
