@@ -161,6 +161,27 @@ const upgrades: Upgrade[] = [
       },
     ],
   },
+  {
+    ldf: 'fx9medicaldroid',
+    name: 'FX-9 Medical Droid',
+    side: 'dark',
+    slot: 'Personnel',
+    points: 19,
+    restrictions: { name: 'Imperial only', ldf: 'empire' },
+    description: 'Add 1 FX-9 medical droid mini.',
+    keywords: [
+      {
+        name: 'Treat 1: Capacity 2',
+        description:
+          'Place a wound token on this card to remove 1 wound token from or restore 1 mini to a friendly non-emplacement trooper unit at range 1 and in line of sight. Limit 2 tokens.',
+      },
+      {
+        name: 'Noncombatant',
+        description:
+          'The mini added by that upgrade cannot use any weapons and wounds must be assigned to other non-unit leader minis first.',
+      },
+    ],
+  },
 ];
 
 export default upgrades;
