@@ -263,6 +263,15 @@ const cards: CommandCard[] = [
     description:
       'After a friendly corps unit performs a ranged attack, another friendly unit at range 1-2 may gain 1 dodge token.',
   },
+  {
+    ldf: 'covertobservation',
+    name: 'Covert Observation',
+    pips: 1,
+    orders: '1 Special Forces or Operative Unit',
+    restrictions: { name: 'Imperial only', ldf: 'empire' },
+    description:
+      "Look at up to 2 random command cards from an opponent's hand.",
+  },
 ];
 
 export default cards;
