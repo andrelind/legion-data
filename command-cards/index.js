@@ -272,6 +272,15 @@ const cards: CommandCard[] = [
     description:
       "Look at up to 2 random command cards from an opponent's hand.",
   },
+  {
+    ldf: 'pinneddown',
+    name: 'Pinned Down',
+    pips: 2,
+    orders: '2 Support or Heavy Units',
+    restrictions: { name: 'Imperial only', ldf: 'empire' },
+    description:
+      'After a friendly support or heavy unit performs an attack against a unit with a faceup order token, shuffle that token back in its order pool.',
+  },
 ];
 
 export default cards;
