@@ -273,13 +273,13 @@ const cards: CommandCard[] = [
       "Look at up to 2 random command cards from an opponent's hand.",
   },
   {
-    ldf: 'pinneddown',
-    name: 'Pinned Down',
-    pips: 2,
-    orders: '2 Support or Heavy Units',
+    ldf: 'coordinatedfire',
+    name: 'Coordinated Fire',
+    pips: 3,
+    orders: '3 Corps Units',
     restrictions: { name: 'Imperial only', ldf: 'empire' },
     description:
-      'After a friendly support or heavy unit performs an attack against a unit with a faceup order token, shuffle that token back in its order pool.',
+      'After a friendly corps unit spends an aim token, another friendly unit at range 1-2 may gain 1 aim token.',
   },
 ];
 
