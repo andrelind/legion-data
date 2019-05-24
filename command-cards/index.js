@@ -297,6 +297,14 @@ const cards: CommandCard[] = [
     description:
       'Jyn Erso gains <strong>Inspire 2</strong>. When Jyn Erso issues an order to another friendly trooper unit, that unit gains <strong>Teamwork: Jyn Erso</strong>.',
   },
+  {
+    ldf: 'completethemission',
+    name: 'Complete the Mission',
+    pips: 3,
+    orders: '3 Troopers',
+    description:
+      "Jyn Erso gains <strong>Low Profile</strong>. When a friendly trooper unit is issued an order, it may gain 1 suppression token. When a friendly trooper unit with a faceup order token activates, during its activation, it cannot become panicked or suppressed. At the end of that unit's activation, it may remove 1 suppression token.",
+  },
 ];
 
 export default cards;
