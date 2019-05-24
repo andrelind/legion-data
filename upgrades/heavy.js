@@ -459,6 +459,34 @@ const upgrades: Upgrade[] = [
       dice: { red: 1, white: 1 },
     },
   },
+  {
+    ldf: 'dtf16',
+    name: 'DT-F16',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 22,
+    unique: true,
+    restrictions: {
+      name: 'Imperial Death Troopers only',
+      ldf: 'imperialdeathtroopers',
+    },
+    description: 'Add 1 DT-F16 mini.',
+    keywords: [
+      {
+        name: 'Compel',
+        description:
+          'After another friendly unit at range 1-2 rallies, if it is suppressed but not panicked, it may gain 1 suppression token to perform a free move action.',
+      },
+      {
+        name: 'Leader',
+        description: 'This mini is your unit leader.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { black: 1, white: 1 },
+    },
+  },
 ];
 
 export default upgrades;
