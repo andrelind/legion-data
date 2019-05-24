@@ -487,6 +487,29 @@ const upgrades: Upgrade[] = [
       dice: { black: 1, white: 1 },
     },
   },
+  {
+    ldf: 'dlt19dtrooper',
+    name: 'DLT-19D Trooper',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 34,
+    restrictions: {
+      name: 'Imperial Death Troopers only',
+      ldf: 'imperialdeathtroopers',
+    },
+    description: 'Add 1 DLT-19D trooper mini.',
+    keywords: [
+      {
+        name: 'Impact 1',
+        description:
+          'While attacking a unit that has Armor, change up to 1 [hit] result to a [crit] result.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { red: 2, white: 1 },
+    },
+  },
 ];
 
 export default upgrades;
