@@ -444,6 +444,7 @@ const units: Unit[] = [
         keywords: ['Suppressive'],
       },
     ],
+    commandCards: ['rebellious', 'trustgoesbothways', 'completethemission'],
   },
   {
     ldf: 'directororsonkrennic',
@@ -494,6 +495,11 @@ const units: Unit[] = [
         dice: { white: 1, black: 1, red: 1 },
         keywords: ['Pierce 1'],
       },
+    ],
+    commandCards: [
+      'voraciousambition',
+      'deploythegarrison',
+      'annihilationlooms',
     ],
   },
 ];
