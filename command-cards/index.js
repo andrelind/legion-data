@@ -281,6 +281,14 @@ const cards: CommandCard[] = [
     description:
       'After a friendly corps unit spends an aim token, another friendly unit at range 1-2 may gain 1 aim token.',
   },
+  {
+    ldf: 'rebellious',
+    name: 'Rebellious',
+    pips: 1,
+    orders: 'Jyn Erso',
+    description:
+      'Jyn Erso gains <strong>Charge</strong>. Once per round, when an enemy unit at range 1-2 and in line of sight of Jyn Erso activates, before it performs its Rally step, Jyn Erso may gain 1 suppression token to either perform an attack against that unit or to perform a free move action.',
+  },
 ];
 
 export default cards;
