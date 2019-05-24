@@ -237,6 +237,15 @@ const cards: CommandCard[] = [
     description:
       "Choose one of Han Solo's command cards in your discard pile. Return that card to your hand.",
   },
+  {
+    ldf: 'sabotagedcommunications',
+    name: 'Sabotaged Communications',
+    pips: 1,
+    orders: '1 Special Forces or Operative Unit',
+    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    description:
+      'Your opponent must issue orders to 1 fewer unit than is indicated on their command card to a minimum of 1.',
+  },
 ];
 
 export default cards;
