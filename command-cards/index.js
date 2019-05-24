@@ -246,6 +246,14 @@ const cards: CommandCard[] = [
     description:
       'Your opponent must issue orders to 1 fewer unit than is indicated on their command card to a minimum of 1.',
   },
+  {
+    ldf: 'turningthetide',
+    name: 'Turning the Tide',
+    pips: 2,
+    orders: '2 Support or Heavy Units',
+    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    description: 'Each friendly support or heavy unit gains Inspire 2.',
+  },
 ];
 
 export default cards;
