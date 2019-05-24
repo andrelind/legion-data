@@ -47,6 +47,44 @@ const upgrades: Upgrade[] = [
       ],
     },
   },
+  {
+    ldf: 'a300shortrangeconfig',
+    name: 'A-300 Short Range Config',
+    points: 6,
+    restrictions: { name: 'Rebel Pathfinders only', ldf: 'rebelpathfinders' },
+    side: 'light',
+    slot: 'Armament',
+    weapon: {
+      name: 'A-300 Short Range Config',
+      range: { from: 1, to: 2 },
+      dice: { red: 1 },
+      keywords: [
+        {
+          name: 'Reconfigure',
+          description: 'When you recover, you may flip this card.',
+        },
+      ],
+    },
+  },
+  {
+    ldf: 'a300longrangeconfig',
+    name: 'A-300 Long Range Config',
+    points: 6,
+    restrictions: { name: 'Rebel Pathfinders only', ldf: 'rebelpathfinders' },
+    side: 'light',
+    slot: 'Armament',
+    weapon: {
+      name: 'A-300 Long Range Config',
+      range: { from: 1, to: 4 },
+      dice: { white: 1 },
+      keywords: [
+        {
+          name: 'Reconfigure',
+          description: 'When you recover, you may flip this card.',
+        },
+      ],
+    },
+  },
 ];
 
 export default upgrades;
