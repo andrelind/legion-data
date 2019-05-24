@@ -313,6 +313,22 @@ const cards: CommandCard[] = [
     description:
       'At the start of the Activation Phase place 3 random order tokens from your order pool face down on this card. You may look at these order tokens at any time. When you would draw an order token from your order pool, you may choose 1 order token on this card and use that order token instead.',
   },
+  {
+    ldf: 'deploythegarrison',
+    name: 'Deploy the Garrison',
+    pips: 2,
+    orders: '2 Troopers',
+    description:
+      'At the start of the Activation Phase, choose up to 2 friendly trooper units that have faceup order tokens. Each chosen unit may perform a free standby action.',
+  },
+  {
+    ldf: 'annihilationlooms',
+    name: 'Annihilation Looms',
+    pips: 3,
+    orders: 'Director Orson Krennic & 2 Units',
+    description:
+      'Each trooper unit gains 1 suppression token. If it is round 5 or 6, each trooper unit gains 1 additional suppression token.',
+  },
 ];
 
 export default cards;
