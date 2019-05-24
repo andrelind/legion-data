@@ -305,6 +305,14 @@ const cards: CommandCard[] = [
     description:
       "Jyn Erso gains <strong>Low Profile</strong>. When a friendly trooper unit is issued an order, it may gain 1 suppression token. When a friendly trooper unit with a faceup order token activates, during its activation, it cannot become panicked or suppressed. At the end of that unit's activation, it may remove 1 suppression token.",
   },
+  {
+    ldf: 'voraciousambition',
+    name: 'Voracious Ambition',
+    pips: 1,
+    orders: 'Director Orson Krennic',
+    description:
+      'At the start of the Activation Phase place 3 random order tokens from your order pool face down on this card. You may look at these order tokens at any time. When you would draw an order token from your order pool, you may choose 1 order token on this card and use that order token instead.',
+  },
 ];
 
 export default cards;
