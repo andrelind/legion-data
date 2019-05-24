@@ -85,6 +85,61 @@ const upgrades: Upgrade[] = [
       ],
     },
   },
+  {
+    ldf: 'e11dgrenadelauncherconfig',
+    name: 'E-11D Grenade Launcher Config',
+    points: 8,
+    restrictions: {
+      name: 'Imperial Death Troopers only',
+      ldf: 'imperialdeathtroopers',
+    },
+    side: 'dark',
+    slot: 'Armament',
+    exhaust: true,
+    weapon: {
+      name: 'E-11D Grenade Launcher Config',
+      range: { from: 1, to: 2 },
+      dice: { red: 1 },
+      keywords: [
+        {
+          name: 'Blast',
+          description: 'Ignore cover.',
+        },
+        {
+          name: 'Reconfigure',
+          description: 'When you recover, you may flip this card.',
+        },
+      ],
+    },
+  },
+  {
+    ldf: 'e11dfocusedfireconfig',
+    name: 'E-11D Focused Fire Config',
+    points: 8,
+    restrictions: {
+      name: 'Imperial Death Troopers only',
+      ldf: 'imperialdeathtroopers',
+    },
+    side: 'dark',
+    slot: 'Armament',
+    exhaust: true,
+    weapon: {
+      name: 'E-11D Focused Fire Config',
+      range: { from: 1, to: 4 },
+      dice: { black: 1 },
+      keywords: [
+        {
+          name: 'Suppressive',
+          description:
+            'After you perform an attack, the defender gains 1 suppression token.',
+        },
+        {
+          name: 'Reconfigure',
+          description: 'When you recover, you may flip this card.',
+        },
+      ],
+    },
+  },
 ];
 
 export default upgrades;
