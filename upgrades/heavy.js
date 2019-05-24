@@ -413,6 +413,7 @@ const upgrades: Upgrade[] = [
     side: 'light',
     slot: 'Heavy Weapon',
     points: 32,
+    unique: true,
     restrictions: { name: 'Rebel Pathfinders only', ldf: 'rebelpathfinders' },
     description: 'Add 1 Bistan mini.',
     exhaust: true,
@@ -430,6 +431,32 @@ const upgrades: Upgrade[] = [
     weapon: {
       range: { from: 1, to: 4 },
       dice: { black: 1, white: 4 },
+    },
+  },
+  {
+    ldf: 'pao',
+    name: 'Pao',
+    side: 'light',
+    slot: 'Heavy Weapon',
+    points: 22,
+    unique: true,
+    restrictions: { name: 'Rebel Pathfinders only', ldf: 'rebelpathfinders' },
+    description: 'Add 1 Pao mini.',
+    exhaust: true,
+    keywords: [
+      {
+        name: 'Inspire 1',
+        description:
+          'After your Rally step, remove up to 1 suppression token from another friendly unit at range 1-2.',
+      },
+      {
+        name: 'Leader',
+        description: 'This mini is your unit leader.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { red: 1, white: 1 },
     },
   },
 ];
