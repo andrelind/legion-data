@@ -289,6 +289,14 @@ const cards: CommandCard[] = [
     description:
       'Jyn Erso gains <strong>Charge</strong>. Once per round, when an enemy unit at range 1-2 and in line of sight of Jyn Erso activates, before it performs its Rally step, Jyn Erso may gain 1 suppression token to either perform an attack against that unit or to perform a free move action.',
   },
+  {
+    ldf: 'trustgoesbothways',
+    name: 'Trust Goes Both Ways',
+    pips: 2,
+    orders: 'Jyn Erso & 1 Trooper',
+    description:
+      'Jyn Erso gains <strong>Inspire 2</strong>. When Jyn Erso issues an order to another friendly trooper unit, that unit gains <strong>Teamwork: Jyn Erso</strong>.',
+  },
 ];
 
 export default cards;
