@@ -254,6 +254,15 @@ const cards: CommandCard[] = [
     restrictions: { name: 'Rebel only', ldf: 'rebels' },
     description: 'Each friendly support or heavy unit gains Inspire 2.',
   },
+  {
+    ldf: 'coveringfire',
+    name: 'Covering Fire',
+    pips: 3,
+    orders: '3 Corps Units',
+    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    description:
+      'After a friendly corps unit performs a ranged attack, another friendly unit at range 1-2 may gain 1 dodge token.',
+  },
 ];
 
 export default cards;
