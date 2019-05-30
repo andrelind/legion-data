@@ -24,6 +24,7 @@ export type Rank =
 export type Side = 'light' | 'dark' | 'neutral';
 
 export type Slot =
+  | 'Armament'
   | 'Heavy Weapon'
   | 'Personnel'
   | 'Force'
@@ -96,6 +97,7 @@ export type Upgrade = {
 };
 
 export type Upgrades = {
+  armament?: Upgrade[],
   command?: Upgrade[],
   comms?: Upgrade[],
   elite?: Upgrade[],

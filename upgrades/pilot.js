@@ -10,7 +10,7 @@ const upgrades: Upgrade[] = [
     points: 10,
     exhaust: true,
     description:
-      '[action]Until the end of your activation, you gain <strong>ARSENAL 2</strong> (While attacking, each of your minis can use up to 2 of its weapons.)',
+      '[action] Until the end of your activation, you gain <strong>ARSENAL 2</strong> (While attacking, each of your minis can use up to 2 of its weapons.)',
   },
   {
     ldf: 'wedgeantilles',

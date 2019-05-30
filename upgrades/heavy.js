@@ -394,7 +394,8 @@ const upgrades: Upgrade[] = [
     keywords: [
       {
         name: 'Impact 1',
-        description: 'While attacking a unit that has <strong>armor</strong>, change up to 1 [hit] result to a [crit] result.',
+        description:
+          'While attacking a unit that has <strong>armor</strong>, change up to 1 [hit] result to a [crit] result.',
       },
       {
         name: 'Pierce 1',
@@ -404,6 +405,109 @@ const upgrades: Upgrade[] = [
     weapon: {
       range: { from: 1, to: 3 },
       dice: { red: 1, white: 1 },
+    },
+  },
+  {
+    ldf: 'bistan',
+    name: 'Bistan',
+    side: 'light',
+    slot: 'Heavy Weapon',
+    points: 32,
+    unique: true,
+    restrictions: { name: 'Rebel Pathfinders only', ldf: 'rebelpathfinders' },
+    description: 'Add 1 Bistan mini.',
+    exhaust: true,
+    keywords: [
+      {
+        name: 'Impact 1',
+        description:
+          'While attacking a unit that has <strong>armor</strong>, change up to 1 [hit] result to a [crit] result.',
+      },
+      {
+        name: 'Ion 1',
+        description: 'A vehicle wounded by this attack gains 1 ion token.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { black: 1, white: 4 },
+    },
+  },
+  {
+    ldf: 'pao',
+    name: 'Pao',
+    side: 'light',
+    slot: 'Heavy Weapon',
+    points: 22,
+    unique: true,
+    restrictions: { name: 'Rebel Pathfinders only', ldf: 'rebelpathfinders' },
+    description: 'Add 1 Pao mini.',
+    exhaust: true,
+    keywords: [
+      {
+        name: 'Inspire 1',
+        description:
+          'After your Rally step, remove up to 1 suppression token from another friendly unit at range 1-2.',
+      },
+      {
+        name: 'Leader',
+        description: 'This mini is your unit leader.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { red: 1, white: 1 },
+    },
+  },
+  {
+    ldf: 'dtf16',
+    name: 'DT-F16',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 22,
+    unique: true,
+    restrictions: {
+      name: 'Imperial Death Troopers only',
+      ldf: 'imperialdeathtroopers',
+    },
+    description: 'Add 1 DT-F16 mini.',
+    keywords: [
+      {
+        name: 'Compel',
+        description:
+          'After another friendly unit at range 1-2 rallies, if it is suppressed but not panicked, it may gain 1 suppression token to perform a free move action.',
+      },
+      {
+        name: 'Leader',
+        description: 'This mini is your unit leader.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { black: 1, white: 1 },
+    },
+  },
+  {
+    ldf: 'dlt19dtrooper',
+    name: 'DLT-19D Trooper',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 34,
+    restrictions: {
+      name: 'Imperial Death Troopers only',
+      ldf: 'imperialdeathtroopers',
+    },
+    description: 'Add 1 DLT-19D trooper mini.',
+    keywords: [
+      {
+        name: 'Impact 1',
+        description:
+          'While attacking a unit that has Armor, change up to 1 [hit] result to a [crit] result.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { red: 2, white: 1 },
     },
   },
 ];

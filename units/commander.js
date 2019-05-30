@@ -315,6 +315,193 @@ const units: Unit[] = [
     ],
     commandCards: ['andnowyouwilldie', 'giveintoyouranger', 'anentirelegion'],
   },
+  {
+    ldf: 'rebelofficer',
+    name: 'Rebel Office',
+    unique: false,
+    side: 'light',
+    type: 'Trooper',
+    points: 50,
+    rank: 'Commander',
+    minis: 1,
+    wounds: 4,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'hit', defense: 'block' },
+    speed: 2,
+    slots: ['Command', 'Gear'],
+    keywords: [
+      {
+        name: 'Take Cover 1',
+        decription:
+          'Choose up to 1 friendly trooper unit at range 1. That unit gains a dodge token.',
+      },
+      {
+        name: 'Inspire 1',
+        description:
+          'After your Rally step, remove 1 suppression token from another friendly unit at range 1-2.',
+      },
+      {
+        name: 'Sharpshooter 1',
+        description:
+          'While performing a ranged attack, reduce the defender’s cover by 1.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: "Officer's A-180 Blaster Pistol",
+        range: { from: 1, to: 2 },
+        dice: { black: 1, white: 1 },
+      },
+    ],
+  },
+  {
+    ldf: 'imperialofficer',
+    name: 'Imperial Office',
+    unique: false,
+    side: 'dark',
+    type: 'Trooper',
+    points: 50,
+    rank: 'Commander',
+    minis: 1,
+    wounds: 4,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'hit', defense: 'block' },
+    speed: 2,
+    slots: ['Command', 'Gear'],
+    keywords: [
+      {
+        name: 'Spotter 1',
+        decription:
+          'Choose 1 friendly unit at range 1. That unit gains an aim token.',
+      },
+      {
+        name: 'Inspire 1',
+        description:
+          'After your Rally step, remove 1 suppression token from another friendly unit at range 1-2.',
+      },
+      {
+        name: 'Sharpshooter 1',
+        description:
+          'While performing a ranged attack, reduce the defender’s cover by 1.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: "Officer's RK-3 Blaster Pistol",
+        range: { from: 1, to: 2 },
+        dice: { black: 1, white: 1 },
+      },
+    ],
+  },
+  {
+    ldf: 'jynerso',
+    name: 'Jyn Erso',
+    unique: true,
+    side: 'light',
+    type: 'Trooper',
+    points: 130,
+    rank: 'Commander',
+    minis: 1,
+    wounds: 6,
+    courage: 3,
+    defense: 'white',
+    surge: { attack: 'crit', defense: 'block' },
+    speed: 2,
+    slots: ['Command', 'Gear', 'Elite', 'Armament'],
+    keywords: [
+      {
+        name: 'Quick Thinking',
+        decription: 'Gain 1 aim token and 1 dodge token.',
+      },
+      {
+        name: 'Danger Sense 4',
+        description:
+          'You may choose not to remove your suppression tokens. While defending against a ranged attack, roll 1 extra defense die for each suppression token you have, adding up to 4 extra dice.',
+      },
+      {
+        name: 'Infiltrate',
+        description:
+          'You may deploy anywhere beyond range 3 of all enemy units.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Collapsible Tonfa',
+        range: { from: 0 },
+        dice: { black: 4 },
+        keywords: ['Suppressive'],
+      },
+    ],
+    commandCards: ['rebellious', 'trustgoesbothways', 'completethemission'],
+  },
+  {
+    ldf: 'directororsonkrennic',
+    name: 'Director Orson Krennic',
+    unique: true,
+    side: 'light',
+    type: 'Trooper',
+    points: 90,
+    rank: 'Commander',
+    minis: 1,
+    wounds: 6,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'crit', defense: 'block' },
+    speed: 2,
+    slots: ['Command', 'Command', 'Gear'],
+    keywords: [
+      {
+        name: 'Compel',
+        decription:
+          'After another friendly unit at range 1-2 rallies, if it is suppressed but not panicked, it may gain 1 suppression token to perform a free move action.',
+      },
+      {
+        name: 'Cunning',
+        description:
+          'When your commander specific command cards are played, if there would be a bid for priority, treat your command card as though it had 1 fewer pip.',
+      },
+      {
+        name: 'Entourage: Imperial Death Troopers',
+        description:
+          'While building an army, ignore the rank of 1 Imperial Death Troopers unit. During the Command Phase, you may issue an order to a friendly Imperial Death Troopers unit at range 1-2.',
+      },
+      {
+        name: 'Sharpshooter 1',
+        description:
+          'While performing a ranged attack, reduce the defender’s cover by 1.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: "Krennic's DT-29 Blaster Pistol",
+        range: { from: 1, to: 2 },
+        dice: { white: 1, black: 1, red: 1 },
+        keywords: ['Pierce 1'],
+      },
+    ],
+    commandCards: [
+      'voraciousambition',
+      'deploythegarrison',
+      'annihilationlooms',
+    ],
+  },
 ];
 
 export default units;

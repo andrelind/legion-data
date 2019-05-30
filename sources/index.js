@@ -354,6 +354,108 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'rebelspecialistspersonnel',
+    name: 'Rebel Specialists Personnel',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { rebelofficer: 1 },
+      upgrades: {
+        commandingpresence: 1,
+        commsrelay: 1,
+        reconintel: 1,
+        rebelofficer: 1,
+        rebelcommstechnician: 1,
+        r5astromechdroid: 1,
+        '21bmedicaldroid': 1,
+      },
+    },
+  },
+  {
+    ldf: 'imperialspecialistspersonnel',
+    name: 'Imperial Specialists Personnel',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { imperialofficer: 1 },
+      upgrades: {
+        commandingpresence: 1,
+        commsrelay: 1,
+        reconintel: 1,
+        imperialofficer: 1,
+        imperialcommstechnician: 1,
+        r4astromechdroid: 1,
+        fx9medicaldroid: 1,
+      },
+    },
+  },
+  {
+    ldf: 'jynersocommander',
+    name: 'Jyn Erso Commander',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { jynerso: 1 },
+      upgrades: {
+        strictorders: 1,
+        reconintel: 1,
+        a180pistolrifleconfig: 1,
+        duckandcover: 1,
+      },
+    },
+  },
+  {
+    ldf: 'rebelpathfindersunit',
+    name: 'Rebel Pathfinders Unit',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { rebelpathfinders: 1 },
+      upgrades: {
+        commsrelay: 1,
+        fragmentationgrenades: 1,
+        bistan: 1,
+        pao: 1,
+        duckandcover: 1,
+        overwatch: 1,
+        a300shortrangelongrangeconfig: 1,
+      },
+    },
+  },
+  {
+    ldf: 'directororsonkrenniccommander',
+    name: 'Director Orson Krennic Commander',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { directororsonkrennic: 1 },
+      upgrades: {
+        strictorders: 1,
+        esteemedleader: 1,
+        reconintel: 1,
+      },
+    },
+  },
+  {
+    ldf: 'imperialdeathtroopersunit',
+    name: 'Imperial Death Troopers Unit',
+    wave: 5,
+    released: true,
+    contents: {
+      units: { imperialdeathtroopers: 1 },
+      upgrades: {
+        e11dgrenadelauncherfocusedfireconfig: 1,
+        commsrelay: 1,
+        environmentalgear: 1,
+        fragmentationgrenades: 1,
+        dtf16: 1,
+        dlt19dtrooper: 1,
+        duckandcover: 1,
+        overwatch: 1,
+      },
+    },
+  },
 ];
 
 export default sources;

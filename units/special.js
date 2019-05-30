@@ -277,6 +277,112 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'rebelpathfinders',
+    name: 'Rebel Pathfinders',
+    side: 'light',
+    points: 60,
+    rank: 'Special Forces',
+    type: 'Trooper',
+    minis: 4,
+    wounds: 1,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'hit', defend: 'block' },
+    speed: 2,
+    slots: [
+      'Armament',
+      'Comms',
+      'Gear',
+      'Grenades',
+      'Heavy Weapon',
+      'Training',
+    ],
+    keywords: [
+      {
+        name: 'Danger Sense 3',
+        description:
+          'You may choose not to remove your suppression tokens. While defending against a ranged attack, roll 1 extra defense die for each suppression token you have, adding up to 3 extra dice.',
+      },
+      {
+        name: 'Dauntless',
+        description:
+          'After you rally, if you are suppressed but not panicked, you may gain 1 suppression token to perform a free move action.',
+      },
+      {
+        name: 'Infiltrate',
+        description:
+          'You may deploy anywhere beyond range 3 of all enemy units.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: 'A-300 Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { white: 2 },
+      },
+    ],
+  },
+  {
+    ldf: 'imperialdeathtroopers',
+    name: 'Imperial Death Troopers',
+    side: 'dark',
+    points: 76,
+    rank: 'Special Forces',
+    type: 'Trooper',
+    minis: 4,
+    wounds: 1,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'hit', defend: 'block' },
+    speed: 2,
+    slots: [
+      'Armament',
+      'Comms',
+      'Gear',
+      'Grenades',
+      'Heavy Weapon',
+      'Training',
+    ],
+    keywords: [
+      {
+        name: 'Disciplined 1',
+        description:
+          'When you are issued an order, you may remove up to 1 suppression token.',
+      },
+      {
+        name: 'Precise 2',
+        description:
+          'When you spend an aim token, reroll up to 2 additional dice.',
+      },
+      {
+        name: 'Ready 1',
+        description: 'After you perform a standby action, gain 1 aim token.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Close Quarters Combat',
+        range: { from: 0 },
+        dice: { red: 1 },
+      },
+      {
+        name: 'SE-14r Light Blaster',
+        range: { from: 1, to: 2 },
+        dice: { white: 2 },
+      },
+      {
+        name: 'E-11D Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { black: 1 },
+      },
+    ],
+  },
 ];
 
 export default units;

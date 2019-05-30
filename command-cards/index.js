@@ -237,6 +237,98 @@ const cards: CommandCard[] = [
     description:
       "Choose one of Han Solo's command cards in your discard pile. Return that card to your hand.",
   },
+  {
+    ldf: 'sabotagedcommunications',
+    name: 'Sabotaged Communications',
+    pips: 1,
+    orders: '1 Special Forces or Operative Unit',
+    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    description:
+      'Your opponent must issue orders to 1 fewer unit than is indicated on their command card to a minimum of 1.',
+  },
+  {
+    ldf: 'turningthetide',
+    name: 'Turning the Tide',
+    pips: 2,
+    orders: '2 Support or Heavy Units',
+    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    description: 'Each friendly support or heavy unit gains Inspire 2.',
+  },
+  {
+    ldf: 'coveringfire',
+    name: 'Covering Fire',
+    pips: 3,
+    orders: '3 Corps Units',
+    restrictions: { name: 'Rebel only', ldf: 'rebels' },
+    description:
+      'After a friendly corps unit performs a ranged attack, another friendly unit at range 1-2 may gain 1 dodge token.',
+  },
+  {
+    ldf: 'covertobservation',
+    name: 'Covert Observation',
+    pips: 1,
+    orders: '1 Special Forces or Operative Unit',
+    restrictions: { name: 'Imperial only', ldf: 'empire' },
+    description:
+      "Look at up to 2 random command cards from an opponent's hand.",
+  },
+  {
+    ldf: 'coordinatedfire',
+    name: 'Coordinated Fire',
+    pips: 3,
+    orders: '3 Corps Units',
+    restrictions: { name: 'Imperial only', ldf: 'empire' },
+    description:
+      'After a friendly corps unit spends an aim token, another friendly unit at range 1-2 may gain 1 aim token.',
+  },
+  {
+    ldf: 'rebellious',
+    name: 'Rebellious',
+    pips: 1,
+    orders: 'Jyn Erso',
+    description:
+      'Jyn Erso gains <strong>Charge</strong>. Once per round, when an enemy unit at range 1-2 and in line of sight of Jyn Erso activates, before it performs its Rally step, Jyn Erso may gain 1 suppression token to either perform an attack against that unit or to perform a free move action.',
+  },
+  {
+    ldf: 'trustgoesbothways',
+    name: 'Trust Goes Both Ways',
+    pips: 2,
+    orders: 'Jyn Erso & 1 Trooper',
+    description:
+      'Jyn Erso gains <strong>Inspire 2</strong>. When Jyn Erso issues an order to another friendly trooper unit, that unit gains <strong>Teamwork: Jyn Erso</strong>.',
+  },
+  {
+    ldf: 'completethemission',
+    name: 'Complete the Mission',
+    pips: 3,
+    orders: '3 Troopers',
+    description:
+      "Jyn Erso gains <strong>Low Profile</strong>. When a friendly trooper unit is issued an order, it may gain 1 suppression token. When a friendly trooper unit with a faceup order token activates, during its activation, it cannot become panicked or suppressed. At the end of that unit's activation, it may remove 1 suppression token.",
+  },
+  {
+    ldf: 'voraciousambition',
+    name: 'Voracious Ambition',
+    pips: 1,
+    orders: 'Director Orson Krennic',
+    description:
+      'At the start of the Activation Phase place 3 random order tokens from your order pool face down on this card. You may look at these order tokens at any time. When you would draw an order token from your order pool, you may choose 1 order token on this card and use that order token instead.',
+  },
+  {
+    ldf: 'deploythegarrison',
+    name: 'Deploy the Garrison',
+    pips: 2,
+    orders: '2 Troopers',
+    description:
+      'At the start of the Activation Phase, choose up to 2 friendly trooper units that have faceup order tokens. Each chosen unit may perform a free standby action.',
+  },
+  {
+    ldf: 'annihilationlooms',
+    name: 'Annihilation Looms',
+    pips: 3,
+    orders: 'Director Orson Krennic & 2 Units',
+    description:
+      'Each trooper unit gains 1 suppression token. If it is round 5 or 6, each trooper unit gains 1 additional suppression token.',
+  },
 ];
 
 export default cards;
