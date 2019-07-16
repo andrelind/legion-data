@@ -509,6 +509,22 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'bosskoperative',
+    name: 'Bossk Operative',
+    wave: 6,
+    released: true,
+    contents: {
+      units: {
+        bossk: 1,
+      },
+      upgrades: {
+        endurance: 1,
+        hunter: 1,
+        emergencystims: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
