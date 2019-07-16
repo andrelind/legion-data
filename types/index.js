@@ -35,7 +35,8 @@ export type Slot =
   | 'Comms'
   | 'Pilot'
   | 'Elite'
-  | 'Generator';
+  | 'Generator'
+  | 'Crew';
 
 export type Army = {
   uid: string,

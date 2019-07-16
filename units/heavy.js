@@ -149,6 +149,54 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'x34landspeeder',
+    name: 'X-34 Landspeeder',
+    side: 'light',
+    points: 75,
+    rank: 'Heavy',
+    type: 'Vehicle',
+    minis: 1,
+    wounds: 6,
+    resilience: 4,
+    defense: 'white',
+    surge: { attack: 'hit', defense: 'block' },
+    speed: 2,
+    slots: ['Comms', 'Crew', 'Crew', 'Hardpoint', 'Pilot'],
+    keywords: [
+      {
+        name: 'Armor 2',
+        description: 'While defending, cancel up to 2 [hit] results',
+      },
+      {
+        name: 'Arsenal 3',
+        description:
+          'While attacking, each mini in this unit can use up to 3 of its weapons',
+      },
+      {
+        name: 'Cover 1',
+        description:
+          'While defending against a ranged attack, improve your cover by 1.',
+      },
+      {
+        name: 'Light Transport 1: Open',
+        description:
+          'You may transport one friendly trooper unit that consists of exactly 1 small base unit. After defending, if you suffered 1 or more wounds, each unit you were transporting suffers 1 wound.',
+      },
+      {
+        name: 'Speeder 1',
+        description:
+          'While moving, ignore terrain that is height 1 or lower. When you activate, perform a compulsory move.',
+      },
+    ],
+    weapons: [
+      {
+        name: "Driver's DH- 17 Blaster Pistol",
+        range: { from: 1, to: 2 },
+        dice: { white: 1 },
+      },
+    ],
+  },
 ];
 
 export default units;
