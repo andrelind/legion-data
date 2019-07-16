@@ -140,6 +140,24 @@ const upgrades: Upgrade[] = [
       ],
     },
   },
+  {
+    ldf: 'thedarksaber',
+    name: 'The Darksaber',
+    points: 25,
+    restrictions: {
+      name: 'Sabine Wren',
+      ldf: 'sabinewren',
+    },
+    side: 'light',
+    slot: 'Armament',
+    description:
+      'You gain Dauntless (After you rally, if you are suppressed but not panicked, you may gain 1 suppression token to perform a free move action.)\n\nWhile defending against a melee attack, you gain Immune: Pierce.',
+    keywords: ['Impact 1', 'Pierce 1'],
+    weapon: {
+      range: { from: 0, to: 0 },
+      dice: { black: 5 },
+    },
+  },
 ];
 
 export default upgrades;

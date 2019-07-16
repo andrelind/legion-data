@@ -72,6 +72,33 @@ const upgrades: Upgrade[] = [
       },
     ],
   },
+  {
+    ldf: 'electrograpplingline',
+    name: 'Electro Grappling Line',
+    side: 'light',
+    slot: 'Gear',
+    points: 5,
+    exhaust: true,
+    description:
+      '[Action] Choose an enemy trooper unit at range 1 and in line of sight. It gains 2 immobilize tokens and 2 suppression tokens.',
+    restrictions: {
+      name: 'Sabine Wren only',
+      ldf: 'sabinewren',
+    },
+  },
+  {
+    ldf: 'personalcombatshield',
+    name: 'Personal Combat Shield',
+    side: 'light',
+    slot: 'Gear',
+    points: 10,
+    description:
+      'You gain Shielded 1 (You have 1 shield token.) and Recharge 1 (When you recover flip 1 inactive shield token.)',
+    restrictions: {
+      name: 'Sabine Wren only',
+      ldf: 'sabinewren',
+    },
+  },
 ];
 
 export default upgrades;
