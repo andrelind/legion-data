@@ -22,6 +22,25 @@ const upgrades: Upgrade[] = [
     description:
       '[action] Until the end of your activation, you gain <strong>FULL PIVOT</strong> (When you pivot, you can pivot up to 360 degrees.',
   },
+  {
+    ldf: 'firstsergeantarbmab',
+    name: 'First Sergeant Arbmab',
+    side: 'dark',
+    slot: 'Pilot',
+    points: 5,
+    unique: true,
+    description:
+      'Imperial only.\nGroundVehicle only.\n\nYou gain Tactical 1 (After you perform a standard move, gain 1 aim token.)',
+  },
+  {
+    ldf: 'imperialhammerselitearmorpilot',
+    name: 'Imperial Hammers Elite Armor Pilot',
+    side: 'dark',
+    slot: 'Pilot',
+    points: 10,
+    description:
+      'Imperial only.\nGroundVehicle only.\n\nYou gain "[Surge Attack]: [Hit]"',
+  },
 ];
 
 export default upgrades;

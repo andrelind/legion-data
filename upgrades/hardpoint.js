@@ -185,6 +185,54 @@ const upgrades: Upgrade[] = [
       dice: { red: 1 },
     },
   },
+  {
+    ldf: 'dlt19riflepintle',
+    name: 'DLT-19 Rifle Pintle',
+    side: 'dark',
+    slot: 'Hardpoint',
+    points: 18,
+    restrictions: {
+      name: 'TX-225 GAVw Occupier Combat Assault Tank only.',
+      ldf: 'tx225gavwoccupiercombatassaulttank',
+    },
+    keywords: [
+      {
+        name: 'Impact 1',
+        description:
+          'While attacking a unit that has armor, change up to 1 [hit] results to [crit] results.',
+      },
+    ],
+    weapon: {
+      range: {
+        from: 1,
+        to: 4,
+      },
+      dice: {
+        red: 2,
+      },
+    },
+  },
+  {
+    ldf: 'rt97criflepintle',
+    name: 'RT-97C Rifle Pintle',
+    side: 'dark',
+    slot: 'Hardpoint',
+    points: 14,
+    restrictions: {
+      name: 'TX-225 GAVw Occupier Combat Assault Tank only.',
+      ldf: 'tx225gavwoccupiercombatassaulttank',
+    },
+    weapon: {
+      range: {
+        from: 1,
+        to: 4,
+      },
+      dice: {
+        white: 3,
+        red: 2,
+      },
+    },
+  },
 ];
 
 export default upgrades;
