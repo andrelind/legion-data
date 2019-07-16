@@ -121,6 +121,57 @@ const units: Array<Unit> = [
     ],
     commandCards: ['commoncause', 'brainsandbrawn', 'notoriousscoundrels'],
   },
+  {
+    ldf: 'sabinewren',
+    name: 'Sabine Wren',
+    side: 'light',
+    points: 125,
+    rank: 'Operative',
+    type: 'Trooper',
+    minis: 1,
+    wounds: 5,
+    courage: 2,
+    defense: 'red',
+    surge: { attack: 'crit', defense: 'block' },
+    speed: 3,
+    slots: ['Training', 'Gear', 'Gear', 'Armament'],
+    keywords: [
+      {
+        name: 'Jump 2',
+        description:
+          'Perform a move during which you ignore terrain that is height 2 or lower. This is treated as a move action.',
+      },
+      {
+        name: 'Gunslinger',
+        description:
+          'After you perform a ranged attack action, you may perform an additional ranged attack against a different unit.',
+      },
+      {
+        name: 'Impervious',
+        description:
+          'While defending, if the attack pool has Pierce X, roll X additional dice.',
+      },
+      {
+        name: 'Nimble',
+        description:
+          'After defending, if you spent 1 or more dodge tokens, gain 1 dodge token.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Combat Expertise',
+        range: { from: 0 },
+        dice: { black: 2 },
+      },
+      {
+        name: 'Dual Westar-35 Blaster Pistols',
+        range: { from: 1, to: 2 },
+        dice: { red: 1, black: 1, white: 1 },
+        keywords: ['Pierce 1'],
+      },
+    ],
+    commandCards: ['explosions', 'symbolofrebellion', 'legacyofmandalore'],
+  },
 ];
 
 export default units;
