@@ -456,6 +456,42 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'tx225gavwoccupiercombatassaulttankunit',
+    name: 'TX-225 GAVw Occupier Combat Assault Tank Unit',
+    wave: 6,
+    released: true,
+    contents: {
+      units: {
+        tx225gavwoccupiercombatassaulttank: 1,
+      },
+      upgrades: {
+        hquplink: 1,
+        dlt19riflepintle: 1,
+        rt97criflepintle: 1,
+        firstsergeantarbmab: 1,
+        impoerialhammerselitearmorpilot: 1,
+      },
+    },
+  },
+  {
+    ldf: 'x34landspeederunit',
+    name: 'X-34 Landspeeder Unit',
+    wave: 6,
+    released: true,
+    contents: {
+      units: {
+        x34andspeeder: 1,
+      },
+      upgrades: {
+        hquplink: 1,
+        markiimediumblaster: 1,
+        m45ionblaster: 1,
+        ryderazadi: 1,
+        outerrimspeederjockey: 2,
+      },
+    },
+  },
 ];
 
 export default sources;
