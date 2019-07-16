@@ -94,6 +94,109 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'tx225gavwoccupiercombatassaulttank',
+    name: 'TX-225 GAVw Occupier Combat Assault Tank',
+    side: 'dark',
+    points: 155,
+    rank: 'Heavy',
+    type: 'Vehicle',
+    minis: 1,
+    wounds: 8,
+    resilience: 6,
+    defense: 'red',
+    surge: {},
+    speed: 1,
+    slots: ['Comms', 'Hardpoint', 'Pilot'],
+    keywords: [
+      {
+        name: 'Armor',
+        description: 'While defending, cancel all [hit] results',
+      },
+      {
+        name: 'Arsenal 2',
+        description:
+          'While attacking, each mini in this unit can use up to 2 of its weapons',
+      },
+      {
+        name: 'Weak Point 1: Sides',
+        description:
+          "While defending, if the attacker's unit leader is inside your side arcs, the attack pool gains Impact 1",
+      },
+      {
+        name: 'Reposition',
+        description:
+          'Either before or after you perform a standard move, you may perform a free pivot action.',
+      },
+      {
+        name: 'Transport 1: Open',
+        description:
+          'You may transport one friendly trooper unit. After defending, if you suffered 1 or more wounds, each unit you were transporting suffers 1 wound.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Forward Twin MK 2E/W Cannons',
+        range: { from: 1, to: 2 },
+        dice: { black: 1, red: 1 },
+        keywords: ['Suppressive', 'Fixed: Front'],
+      },
+      {
+        name: 'Lateral Quad MK 2E/W Cannons',
+        range: { from: 1, to: 4 },
+        dice: { black: 2, red: 2 },
+        keywords: ['Impact 2', 'Fixed: Front'],
+      },
+    ],
+  },
+  {
+    ldf: 'x34landspeeder',
+    name: 'X-34 Landspeeder',
+    side: 'light',
+    points: 75,
+    rank: 'Heavy',
+    type: 'Vehicle',
+    minis: 1,
+    wounds: 6,
+    resilience: 4,
+    defense: 'white',
+    surge: { attack: 'hit', defense: 'block' },
+    speed: 2,
+    slots: ['Comms', 'Crew', 'Crew', 'Hardpoint', 'Pilot'],
+    keywords: [
+      {
+        name: 'Armor 2',
+        description: 'While defending, cancel up to 2 [hit] results',
+      },
+      {
+        name: 'Arsenal 3',
+        description:
+          'While attacking, each mini in this unit can use up to 3 of its weapons',
+      },
+      {
+        name: 'Cover 1',
+        description:
+          'While defending against a ranged attack, improve your cover by 1.',
+      },
+      {
+        name: 'Light Transport 1: Open',
+        description:
+          'You may transport one friendly trooper unit that consists of exactly 1 small base unit. After defending, if you suffered 1 or more wounds, each unit you were transporting suffers 1 wound.',
+      },
+      {
+        name: 'Speeder 1',
+        description:
+          'While moving, ignore terrain that is height 1 or lower. When you activate, perform a compulsory move.',
+      },
+    ],
+    weapons: [
+      {
+        name: "Driver's DH- 17 Blaster Pistol",
+        range: { from: 1, to: 2 },
+        dice: { white: 1 },
+      },
+    ],
+  },
 ];
 
 export default units;

@@ -185,6 +185,118 @@ const upgrades: Upgrade[] = [
       dice: { red: 1 },
     },
   },
+  {
+    ldf: 'dlt19riflepintle',
+    name: 'DLT-19 Rifle Pintle',
+    side: 'dark',
+    slot: 'Hardpoint',
+    points: 18,
+    restrictions: {
+      name: 'TX-225 GAVw Occupier Combat Assault Tank only.',
+      ldf: 'tx225gavwoccupiercombatassaulttank',
+    },
+    keywords: [
+      {
+        name: 'Impact 1',
+        description:
+          'While attacking a unit that has armor, change up to 1 [hit] results to [crit] results.',
+      },
+    ],
+    weapon: {
+      range: {
+        from: 1,
+        to: 4,
+      },
+      dice: {
+        red: 2,
+      },
+    },
+  },
+  {
+    ldf: 'rt97criflepintle',
+    name: 'RT-97C Rifle Pintle',
+    side: 'dark',
+    slot: 'Hardpoint',
+    points: 14,
+    restrictions: {
+      name: 'TX-225 GAVw Occupier Combat Assault Tank only.',
+      ldf: 'tx225gavwoccupiercombatassaulttank',
+    },
+    weapon: {
+      range: {
+        from: 1,
+        to: 4,
+      },
+      dice: {
+        white: 3,
+        red: 2,
+      },
+    },
+  },
+  {
+    ldf: 'markiimediumblaster',
+    name: 'Mark II Medium Blaster',
+    side: 'light',
+    slot: 'Hardpoint',
+    points: 34,
+    restrictions: {
+      name: 'X-34 Landspeeder only',
+      ldf: 'x34landspeeder',
+    },
+    keywords: [
+      {
+        name: 'Fixed: Front',
+        description: 'The defender must be inside your front arc.',
+      },
+    ],
+    weapon: {
+      range: {
+        from: 1,
+        to: 3,
+      },
+      dice: {
+        black: 4,
+      },
+    },
+  },
+  {
+    ldf: 'm45ionblaster',
+    name: 'M-45 Ion Blaster',
+    side: 'light',
+    slot: 'Hardpoint',
+    points: 38,
+    exhaust: true,
+    restrictions: {
+      name: 'X-34 Landspeeder only',
+      ldf: 'x34landspeeder',
+    },
+    keywords: [
+      {
+        name: 'Fixed: Front',
+        description: 'The defender must be inside your front arc.',
+      },
+      {
+        name: 'Impact 1',
+        description:
+          'While attacking a unit that has Armor, change up to 1 [Hit] result to a [Crit] result.',
+      },
+      {
+        name: 'Ion 1',
+        description:
+          'A vehicle wounded by an attack that includes this weapon gains 1 ion token.',
+      },
+    ],
+    weapon: {
+      range: {
+        from: 1,
+        to: 4,
+      },
+      dice: {
+        white: 4,
+        black: 1,
+      },
+    },
+  },
 ];
 
 export default upgrades;

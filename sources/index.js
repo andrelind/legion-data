@@ -456,6 +456,75 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'tx225gavwoccupiercombatassaulttankunit',
+    name: 'TX-225 GAVw Occupier Combat Assault Tank Unit',
+    wave: 6,
+    released: true,
+    contents: {
+      units: {
+        tx225gavwoccupiercombatassaulttank: 1,
+      },
+      upgrades: {
+        hquplink: 1,
+        dlt19riflepintle: 1,
+        rt97criflepintle: 1,
+        firstsergeantarbmab: 1,
+        impoerialhammerselitearmorpilot: 1,
+      },
+    },
+  },
+  {
+    ldf: 'x34landspeederunit',
+    name: 'X-34 Landspeeder Unit',
+    wave: 6,
+    released: true,
+    contents: {
+      units: {
+        x34andspeeder: 1,
+      },
+      upgrades: {
+        hquplink: 1,
+        markiimediumblaster: 1,
+        m45ionblaster: 1,
+        ryderazadi: 1,
+        outerrimspeederjockey: 2,
+      },
+    },
+  },
+  {
+    ldf: 'sabinewrenoperative',
+    name: 'Sabine Wren Operative',
+    wave: 6,
+    released: true,
+    contents: {
+      units: {
+        sabinewren: 1,
+      },
+      upgrades: {
+        endurance: 1,
+        thedarksaber: 1,
+        electrograpplingline: 1,
+        personalcombatshield: 1,
+      },
+    },
+  },
+  {
+    ldf: 'bosskoperative',
+    name: 'Bossk Operative',
+    wave: 6,
+    released: true,
+    contents: {
+      units: {
+        bossk: 1,
+      },
+      upgrades: {
+        endurance: 1,
+        hunter: 1,
+        emergencystims: 1,
+      },
+    },
+  },
 ];
 
 export default sources;

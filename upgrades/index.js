@@ -10,6 +10,7 @@ import Force from './force';
 import Gear from './gear';
 import Generator from './generator';
 import Grenades from './grenades';
+import Gunner from './gunner';
 import Hardpoint from './hardpoint';
 import Heavy from './heavy';
 import Personnel from './personnel';
@@ -24,6 +25,7 @@ export default {
   Gear,
   Generator,
   Grenades,
+  Gunner,
   Hardpoint,
   'Heavy Weapon': Heavy,
   Personnel,
