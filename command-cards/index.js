@@ -329,6 +329,36 @@ const cards: CommandCard[] = [
     description:
       'Each trooper unit gains 1 suppression token. If it is round 5 or 6, each trooper unit gains 1 additional suppression token.',
   },
+  {
+    ldf: 'explosions',
+    name: 'Explosions!',
+    pips: 1,
+    orders: 'Sabine Wren',
+    description:
+      'During the round this card is played Sabine Wren gains →Arm 2: Thermal Charge. After she performs this action, she may perform a speed-1 move. Until the end of the game Sabine Wren gains Detonate 2: Thermal Charge. Do not discard this card from play.',
+    weapon: {
+      range: { from: 1, to: 1 },
+      dice: { red: 1, white: 1 },
+      surge: { attack: 'crit' },
+      keywords: ['Blast'],
+    },
+  },
+  {
+    ldf: 'symbolofrebellion',
+    name: 'Symbol of Rebellion',
+    pips: 2,
+    orders: 'Sabine Wren',
+    description:
+      "When Sabine Wren activates she recovers. During Sabine Wren's activation, you may place 1 grafiti token at range 1 and in line of sight of her, touching a piece of non-area terrain.",
+  },
+  {
+    ldf: 'legacyofmandalore',
+    name: 'Legacy of Mandalore',
+    pips: 3,
+    orders: 'Sabine Wren & 2 Troopers',
+    description:
+      'Sabine Wren gains Inspire 1. When Sabine Wren issues an order to a Commander, Operative, or Special Forces unit, she gains either 1 aim token or 1 dodge token.',
+  },
 ];
 
 export default cards;
