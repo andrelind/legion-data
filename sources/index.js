@@ -492,6 +492,23 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'sabinewrenoperative',
+    name: 'Sabine Wren Operative',
+    wave: 6,
+    released: true,
+    contents: {
+      units: {
+        sabinewren: 1,
+      },
+      upgrades: {
+        endurance: 1,
+        thedarksaber: 1,
+        electrograpplingline: 1,
+        personalcombatshield: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
