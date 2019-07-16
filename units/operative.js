@@ -134,7 +134,7 @@ const units: Array<Unit> = [
     defense: 'red',
     surge: { attack: 'crit', defense: 'block' },
     speed: 3,
-    slots: ['Training', 'Gear', 'Gear', 'Armament'],
+    slots: ['Elite', 'Gear', 'Gear', 'Armament'],
     keywords: [
       {
         name: 'Jump 2',
