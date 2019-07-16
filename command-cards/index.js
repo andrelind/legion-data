@@ -359,6 +359,36 @@ const cards: CommandCard[] = [
     description:
       'Sabine Wren gains Inspire 1. When Sabine Wren issues an order to a Commander, Operative, or Special Forces unit, she gains either 1 aim token or 1 dodge token.',
   },
+  {
+    ldf: 'mercilessmunitions',
+    name: 'Merciless Munitions',
+    pips: 1,
+    orders: 'Bossk',
+    description:
+      'During the round this card is played Bossk gains →Arm 1: Dioxis Charge. After he performs this action, he may perform a speed-1 move. Until the end of the game Bossk gains Detonate 1: Dioxis Charge.\n\nAfter a trooper unit defends against an attack made by your dioxis charge, it gains 1 poison token.Do not discard this card from play.',
+    weapon: {
+      range: { from: 1, to: 1 },
+      surge: { attack: 'crit' },
+      dice: { red: 1, black: 1 },
+      keywords: ['Blast'],
+    },
+  },
+  {
+    ldf: 'reptillianrampage',
+    name: 'Reptillian Rampage',
+    pips: 2,
+    orders: 'Bossk',
+    description:
+      "During Bossk's activation he can perform up to 2 attack actions and he may suffer 1 wound to perform a free move action.",
+  },
+  {
+    ldf: 'lyinginwait',
+    name: 'Lying in Wait',
+    pips: 3,
+    orders: 'Bossk',
+    description:
+      'Bossk gains Sharpshooter 1. After an enemy unit activates, Bossk gains 1 aim token.',
+  },
 ];
 
 export default cards;
