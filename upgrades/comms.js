@@ -18,7 +18,7 @@ const upgrades: Upgrade[] = [
     slot: 'Comms',
     points: 10,
     description:
-      'During the Command Phase, you may be issued orders as though you are in range of the nominated commander.',
+      'During the Command Phase, you can be issued orders by friendly commander or operative units regardless of range.',
   },
   {
     ldf: 'hquplink',

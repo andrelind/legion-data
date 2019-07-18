@@ -9,7 +9,7 @@ const upgrades: Upgrade[] = [
     slot: 'Force',
     points: 10,
     description:
-      'When you issue orders, one of those orders can be issued to any friendly unit on the battlefield.',
+      'While you are issuing orders using a command card, you may issue 1 of those orders to any friendly unit on the battlefeld, instead of a unit indicated on the command card.',
   },
 
   {
@@ -18,8 +18,9 @@ const upgrades: Upgrade[] = [
     side: 'dark',
     slot: 'Force',
     points: 5,
+    exhaust: true,
     description:
-      '[action] Choose an enemy trooper mini at range 1 that is not a commander. It suffers 1 wound.',
+      'Dark side only.\n\n[card action] Choose a non-commander non-operative trooper mini at range 1.  It suffers 1 wound.',
   },
   {
     ldf: 'forcepush',

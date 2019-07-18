@@ -279,7 +279,7 @@ const cards: CommandCard[] = [
     orders: '3 Corps Units',
     restrictions: { name: 'Imperial only', ldf: 'empire' },
     description:
-      'After a friendly corps unit spends an aim token, another friendly unit at range 1-2 may gain 1 aim token.',
+      'After a friendly corps unit performs a ranged attack, if it spent 1 or more aim tokens, another friendly unit at range 1–2 may gain 1 aim token.',
   },
   {
     ldf: 'rebellious',
