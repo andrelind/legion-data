@@ -29,6 +29,15 @@ const upgrades: Upgrade[] = [
     description:
       'After an order token is drawn from your order pool, you may draw a second order token, choose 1 to use and shuffle the other back into your order pool. During the End Phase, ready this card, if able.',
   },
+  {
+    ldf: 'strictorders',
+    name: 'Strict Orders',
+    side: 'neutral',
+    slot: 'Command',
+    points: 5,
+    description:
+      'When a friendly trooper unit with a faceup order token activates, during its Rally step, it may remove 1 suppression token instead of rolling dice.',
+  },
 ];
 
 export default upgrades;
