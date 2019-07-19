@@ -2,13 +2,24 @@
   "name": "legion-data",
   "version": "1.4.0",
   "description": "An easy-to-use collection of data for Star Wars: Legion game by Fantasy Flight Games",
+  "homepage": "https://github.com/andrelind/legion-data",
+  "bugs": {
+    "url": "https://github.com/andrelind/legion-data/issues"
+  },
+  "author": "André Lind (https://github.com/andrelind)",
+  "contributors": [
+    "Steve Good (https://stevegood.rocks)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/andrelind/legion-data.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "json": "babel-node tojson.js"
   },
-  "author": "André Lind",
-  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
