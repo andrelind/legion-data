@@ -1,6 +1,6 @@
 {
   "name": "legion-data",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "An easy-to-use collection of data for Star Wars: Legion game by Fantasy Flight Games",
   "homepage": "https://github.com/andrelind/legion-data",
   "bugs": {
@@ -12,8 +12,8 @@
   ],
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/andrelind/legion-data.git"
+    "type": "git",
+    "url": "https://github.com/andrelind/legion-data.git"
   },
   "main": "index.js",
   "scripts": {
