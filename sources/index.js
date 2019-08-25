@@ -525,6 +525,25 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'rebelveteransunit',
+    name: 'Rebel Veterans Unit',
+    wave: 7,
+    released: true,
+    contents: {
+      units: {
+        rebelveterans: 1,
+        markiimediumblastertrooper: 1,
+      },
+      upgrades: {
+        environmentalgear: 1,
+        cmo93trooper: 1,
+        rebelveteran: 1,
+        endurance: 1,
+        overwatch: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
