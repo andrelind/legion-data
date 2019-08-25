@@ -162,7 +162,7 @@ const units: Array<Unit> = [
       },
       {
         name: 'Defend 1',
-        description: '(After you are issued an order, gain 1 dodge token.)',
+        description: 'After you are issued an order, gain 1 dodge token.',
       },
     ],
     weapons: [
@@ -184,6 +184,80 @@ const units: Array<Unit> = [
         dice: {
           black: 1,
         },
+      },
+    ],
+  },
+  {
+    ldf: 'markiimediumblastertrooper',
+    name: 'Mark II Medium Blaster Trooper',
+    side: 'light',
+    points: 38,
+    rank: 'Corps',
+    type: 'Trooper',
+    minis: 1,
+    wounds: 3,
+    courage: 2,
+    defense: 'white',
+    surge: {
+      attack: 'hit',
+      defense: 'block',
+    },
+    speed: 1,
+    slots: ['Comms'],
+    keywords: [
+      {
+        name: 'Detachment: Rebel Veterans',
+        description: '',
+      },
+      {
+        name: 'Fire Support',
+        description:
+          'When another friendly unit performs a ranged attack, if you have a faceup order token, each mini in your unit may add an eliglble wapon to the attack pool. If you do, flip your order token facedown. Limit 1 Fire Support per attack pool.',
+      },
+      {
+        name: 'Full Pivot',
+        description: 'When you pivot you can pivot up to 360°.',
+      },
+      {
+        name: 'Reposition',
+        description:
+          'Either before or after you perform a standard move, you may perform a free pivot action.',
+      },
+      {
+        name: 'Sentinel',
+        description: 'Your standby range is 1-3.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: {
+          from: 0,
+        },
+        dice: {
+          black: 1,
+        },
+      },
+      {
+        name: 'A-280 Blaster Rifle',
+        range: {
+          from: 1,
+          to: 3,
+        },
+        dice: {
+          black: 1,
+        },
+      },
+      {
+        name: 'Mark II Medium Blaster',
+        range: {
+          from: 1,
+          to: 3,
+        },
+        dice: {
+          black: 4,
+        },
+        keywords: ['Critical 2', 'Cumbersome', 'Fixed: Front '],
       },
     ],
   },
