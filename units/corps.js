@@ -137,6 +137,56 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'rebelveterans',
+    name: 'Rebel Veterans',
+    side: 'light',
+    points: 48,
+    rank: 'Corps',
+    type: 'Trooper',
+    minis: 4,
+    wounds: 1,
+    courage: 1,
+    defense: 'white',
+    surge: {
+      attack: 'hit',
+      defense: 'block',
+    },
+    speed: 2,
+    slots: ['Gear', 'Grenades', 'Heavy Weapon', 'Personnel', 'Elite'],
+    keywords: [
+      {
+        name: 'Coordinate',
+        description:
+          'Emplacement Trooper (After you are issued an order, you may issue an order to a friendly emplacement trooper unit at range 1.)',
+      },
+      {
+        name: 'Defend 1',
+        description: '(After you are issued an order, gain 1 dodge token.)',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: {
+          from: 0,
+        },
+        dice: {
+          black: 1,
+        },
+      },
+      {
+        name: 'A-280 Blaster Rifle',
+        range: {
+          from: 1,
+          to: 3,
+        },
+        dice: {
+          black: 1,
+        },
+      },
+    ],
+  },
 ];
 
 export default units;
