@@ -510,6 +510,29 @@ const upgrades: Upgrade[] = [
       dice: { red: 2, white: 1 },
     },
   },
+  {
+    ldf: 'cmo93trooper',
+    name: 'CM-O/93 Trooper',
+    side: 'light',
+    slot: 'Heavy Weapon',
+    points: 31,
+    restrictions: {
+      name: 'Rebel Veterans only',
+      ldf: 'rebelveterans',
+    },
+    description: 'Add 1 CM-O/93 trooper mini.',
+    keywords: [
+      {
+        name: 'Critical 2',
+        description:
+          'While converting offensive surges, change up to 2 Dice Surge results to [crit] results.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { white: 4 },
+    },
+  },
 ];
 
 export default upgrades;

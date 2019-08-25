@@ -182,6 +182,15 @@ const upgrades: Upgrade[] = [
       },
     ],
   },
+  {
+    ldf: 'rebelveteran',
+    name: 'Rebel Veteran',
+    side: 'light',
+    slot: 'Personnel',
+    points: 12,
+    restrictions: { name: 'Rebel Veterans only', ldf: 'rebelveterans' },
+    description: 'Add 1 rebel veteran mini.',
+  },
 ];
 
 export default upgrades;

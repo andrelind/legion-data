@@ -29,6 +29,14 @@ const upgrades: Upgrade[] = [
     description:
       'While performing a melee attack, if you are wounded or if one or more of your minis have been defeated, add 1 red attack die to your attack pool.',
   },
+  {
+    ldf: 'overwatch',
+    name: 'Overwatch',
+    side: 'neutral',
+    slot: 'Elite',
+    points: 4,
+    description: 'You gain Sentinel. (Your standby range is 1-3.)',
+  },
 ];
 
 export default upgrades;
