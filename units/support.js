@@ -186,6 +186,59 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'tauntaunriders',
+    name: 'Tauntaun Riders',
+    side: 'light',
+    points: 90,
+    rank: 'Support',
+    type: 'Creature Trooper',
+    minis: 2,
+    wounds: 4,
+    courage: 2,
+    defense: 'white',
+    surge: { attack: 'hit', defense: 'block' },
+    speed: 3,
+    slots: ['Comms', 'Elite'],
+    keywords: [
+      {
+        name: 'Agile 1',
+        description: 'After you perform a standard move, gain 1 dodge token.',
+      },
+      {
+        name: 'Relentless',
+        description:
+          'After you perform a move action, you may perform a free attack action.',
+      },
+      {
+        name: 'Reposition',
+        description:
+          'Either before or after you perform a standard move, you may perform a free pivot action.',
+      },
+      {
+        name: 'Sharpshooter 1',
+        description:
+          "While performing a ranged attack, reduce the defender's cover by 1.",
+      },
+      {
+        name: 'Unhindered',
+        description: 'You ignore the effects of difficult terrain.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Horns & Hind Claws',
+        range: { from: 0, to: 0 },
+        dice: { white: 1, black: 2 },
+        keywords: ['Ram 1'],
+      },
+      {
+        name: 'DL-44 Blaster Pistol',
+        range: { from: 1, to: 2 },
+        dice: { red: 2 },
+      },
+    ],
+  },
 ];
 
 export default units;

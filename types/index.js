@@ -82,7 +82,11 @@ export type Unit = {
   commandCards?: string[],
 };
 
-export type UnitType = 'Trooper' | 'Emplacement Trooper' | 'Vehicle';
+export type UnitType =
+  | 'Trooper'
+  | 'Emplacement Trooper'
+  | 'Creature Trooper'
+  | 'Vehicle';
 
 export type Upgrade = {
   ldf: string,
