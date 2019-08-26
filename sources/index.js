@@ -544,6 +544,22 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'tauntaunridersunit',
+    name: 'Tauntaun Riders Unit',
+    wave: 7,
+    released: true,
+    contents: {
+      units: {
+        tauntaunriders: 1,
+      },
+      upgrades: {
+        commsjammer: 1,
+        endurance: 1,
+        tenacity: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
