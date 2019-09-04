@@ -559,6 +559,24 @@ const sources: Source[] = [
         tenacity: 1,
       },
     },
+  },{
+    ldf: 'imperialshoretroopersunit',
+    name: 'Imperial Shoretroopers Unit',
+    wave: 7,
+    released: true,
+    contents: {
+      units: {
+        shoretroopers: 1,
+        df90mortartrooper: 1,
+      },
+      upgrades: {
+        endurance: 1,
+        environmentalgear: 1,
+        overwatch: 1,
+        t21btrooper: 1,
+        shoretrooper: 1,
+      },
+    },
   },
 ];
 
