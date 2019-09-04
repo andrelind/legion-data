@@ -533,6 +533,29 @@ const upgrades: Upgrade[] = [
       dice: { white: 4 },
     },
   },
+  {
+    ldf: 't21btrooper',
+    name: 'T-21B Trooper',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 32,
+    restrictions: {
+      name: 'Shoretroopers only',
+      ldf: 'shoretroopers',
+    },
+    description: 'Add 1 T-21B trooper mini.',
+    keywords: [
+      {
+        name: 'Critical 1',
+        description:
+          'While converting offensive surges, change up to 1 [Hit] results to [Crit] results.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { white: 2, black: 2 },
+    },
+  },
 ];
 
 export default upgrades;

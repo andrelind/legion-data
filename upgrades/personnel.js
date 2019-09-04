@@ -191,6 +191,15 @@ const upgrades: Upgrade[] = [
     restrictions: { name: 'Rebel Veterans only', ldf: 'rebelveterans' },
     description: 'Add 1 rebel veteran mini.',
   },
+  {
+    ldf: 'shoretrooper',
+    name: 'Shoretrooper',
+    side: 'dark',
+    slot: 'Personnel',
+    points: 13,
+    restrictions: { name: 'Shoretroopers only', ldf: 'shoretroopers' },
+    description: 'Add 1 Shoretrooper mini.',
+  },
 ];
 
 export default upgrades;
