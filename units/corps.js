@@ -297,6 +297,58 @@ const units: Array<Unit> = [
         dice: { black: 1 },
       },
     ],
+  },{
+    ldf: 'df90mortartrooper',
+    name: 'DF-90 Mortar Trooper',
+    side: 'dark',
+    points: 36,
+    rank: 'Corps',
+    type: 'Trooper',
+    minis: 1,
+    wounds: 3,
+    courage: 2,
+    defense: 'red',
+    speed: 2,
+    slots: ['Comms'],
+    keywords: [
+      { name: 'Detachment: Shoretroopers', description: '' },
+      {
+        name: 'Fire Support',
+        description:
+          'When another friendly unit performs a ranged attack, if you have a faceup order token, each mini in your unit may add an eligible weapon to the attack pool. If you do, flip your order token facedown. Limit 1 Fire Support per attack pool.',
+      },
+      {
+        name: 'Full Pivot',
+        description: 'When you pivot, you can pivot up to 360°',
+      },
+      {
+        name: 'Reposition',
+        description:
+          'Either before or after you perform a standard move, you may perform a free pivot action.',
+      },
+      {
+        name: 'Sentinel',
+        description: 'Your standby range is 1-3',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: 'E-22 Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { black: 1 },
+      },
+      {
+        name: 'DF-90 Mortar',
+        range: { from: 3, to: 4 },
+        dice: { white: 3 },
+        keywords: ['Critical 1', 'Cumbersome', 'Suppressive', 'Fixed: Front'],
+      },
+    ],
   },
 ];
 
