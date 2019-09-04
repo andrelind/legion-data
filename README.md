@@ -36,6 +36,7 @@ A list of projects that use this content:
 
 - [Legion Commander](https://itunes.apple.com/us/app/legion-commander/id1390473093?mt=8) (iOS App)
 - [Legion Commander](https://play.google.com/store/apps/details?id=com.legion_commander_app) (Android App)
+- [Legion Discord Bot](https://github.com/StarWarsDev/legion-discord-bot)
 
 Want your project listed here? [Let us know!](https://github.com/andrelind/legion-data/issues/new?title=Add%20Project)
 
