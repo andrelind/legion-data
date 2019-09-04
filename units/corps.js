@@ -261,6 +261,43 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'shoretroopers',
+    name: 'Shoretroopers',
+    side: 'dark',
+    points: 52,
+    rank: 'Corps',
+    type: 'Trooper',
+    minis: 4,
+    wounds: 1,
+    courage: 1,
+    defense: 'red',
+    speed: 2,
+    slots: ['Gear', 'Grenades', 'Heavy Weapon', 'Personnel', 'Elite'],
+    keywords: [
+      {
+        name: 'Coordinate: Emplacement Trooper',
+        description:
+          'After you are issued an order, you may issue an order to a friendly emplacement trooper unit at range 1.',
+      },
+      {
+        name: 'Target 1',
+        description: 'After you are issued an order, gain 1 aim token',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: 'E-22 Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { black: 1 },
+      },
+    ],
+  },
 ];
 
 export default units;
