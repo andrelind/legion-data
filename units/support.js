@@ -50,7 +50,7 @@ const units: Array<Unit> = [
     ldf: '74zspeederbikes',
     name: '74-Z Speeder Bikes',
     side: 'dark',
-    points: 90,
+    points: 75,
     rank: 'Support',
     type: 'Vehicle',
     minis: 2,
