@@ -39,6 +39,10 @@ const units: Array<Unit> = [
         description:
           'While moving, ignore terrain that is height 2 or lower. When you activate, perform a compulsory move.',
       },
+      {
+        name: 'Immune: Range 1 Weapons',
+        description: '',
+      },
     ],
     weapons: [
       {
