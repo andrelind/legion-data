@@ -50,7 +50,7 @@ const upgrades: Upgrade[] = [
     side: 'light',
     slot: 'Hardpoint',
     restrictions: { name: 'AT-RT only', ldf: 'atrt' },
-    points: 25,
+    points: 20,
     keywords: [
       {
         name: 'Blast',
