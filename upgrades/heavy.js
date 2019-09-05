@@ -30,7 +30,7 @@ const upgrades: Upgrade[] = [
     slot: 'Heavy Weapon',
     restrictions: { name: 'Stormtroopers only', ldf: 'stormtroopers' },
     description: 'Add 1 HH-12 Stormtrooper mini',
-    points: 34,
+    points: 26,
     keywords: [
       {
         name: 'Cumbersome',
