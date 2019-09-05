@@ -16,7 +16,7 @@ const upgrades: Upgrade[] = [
     name: 'Long-Range Comlink',
     side: 'neutral',
     slot: 'Comms',
-    points: 10,
+    points: 5,
     description:
       'During the Command Phase, you can be issued orders by friendly commander or operative units regardless of range.',
   },
