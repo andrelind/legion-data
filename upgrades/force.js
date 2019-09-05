@@ -44,7 +44,7 @@ const upgrades: Upgrade[] = [
     name: 'Saber Throw',
     side: 'neutral',
     slot: 'Force',
-    points: 10,
+    points: 5,
     description:
       "[action] Choose 1 of your melee weapons. Perform a ranged attack with the weapon against an enemy unit at range 1-2, using half of that weapon's dice, rounded up. This is treated as an attack action.",
   },
