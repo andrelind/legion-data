@@ -201,7 +201,7 @@ const upgrades: Upgrade[] = [
       },
     ],
     weapon: {
-      range: { from: 1 },
+      range: { from: 1, to: 5 },
       dice: { black: 1, white: 1 },
     },
   },
