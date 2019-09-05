@@ -515,7 +515,7 @@ const upgrades: Upgrade[] = [
     name: 'CM-O/93 Trooper',
     side: 'light',
     slot: 'Heavy Weapon',
-    points: 31,
+    points: 26,
     restrictions: {
       name: 'Rebel Veterans only',
       ldf: 'rebelveterans',
