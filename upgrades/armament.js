@@ -50,7 +50,7 @@ const upgrades: Upgrade[] = [
   {
     ldf: 'a300shortrangeconfig',
     name: 'A-300 Short Range Config',
-    points: 6,
+    points: 0,
     restrictions: { name: 'Rebel Pathfinders only', ldf: 'rebelpathfinders' },
     side: 'light',
     slot: 'Armament',
