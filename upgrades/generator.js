@@ -17,7 +17,7 @@ const upgrades: Upgrade[] = [
     name: 'Overcharged Generator',
     side: 'neutral',
     slot: 'Generator',
-    points: 10,
+    points: 7,
     exhaust: true,
     description:
       'While performing a ranged attack with a weapon that has <strong>FIXED</strong>, add 1 black attack die and apply <strong>IMPACT 1</strong> to your attack pool.',
