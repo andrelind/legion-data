@@ -159,10 +159,10 @@ const upgrades: Upgrade[] = [
   },
   {
     ldf: 'modkpowerharpoon',
-    name: 'MoDk Power Harpoon',
+    name: 'Mo/Dk Power Harpoon',
     side: 'light',
     slot: 'Hardpoint',
-    points: 8,
+    points: 3,
     restrictions: { name: 'T-47 Airspeeder only', ldf: 't47airspeeder' },
     keywords: [
       {
