@@ -53,7 +53,7 @@ const upgrades: Upgrade[] = [
     name: 'MPL-57 Ion Trooper',
     side: 'light',
     slot: 'Heavy Weapon',
-    points: 32,
+    points: 24,
     exhaust: true,
     restrictions: { name: 'Rebel Troopers only', ldf: 'rebeltroopers' },
     description: 'Add 1 MPL-57 ion trooper figure',
