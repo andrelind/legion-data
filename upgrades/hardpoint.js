@@ -144,7 +144,7 @@ const upgrades: Upgrade[] = [
     name: 'Ax-108 Ground Buzzer',
     side: 'light',
     slot: 'Hardpoint',
-    points: 20,
+    points: 10,
     restrictions: { name: 'T-47 Airspeeder only', ldf: 't47airspeeder' },
     keywords: [
       {
