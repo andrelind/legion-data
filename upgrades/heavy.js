@@ -137,7 +137,7 @@ const upgrades: Upgrade[] = [
     name: 'MPL-57 Barrage Trooper',
     side: 'light',
     slot: 'Heavy Weapon',
-    points: 33,
+    points: 25,
     restrictions: { name: 'Fleet Troopers only', ldf: 'fleettroopers' },
     description: 'Add 1 MPL-57 barrage trooper mini',
     exhaust: true,
