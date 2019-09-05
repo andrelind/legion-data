@@ -32,7 +32,7 @@ const upgrades: Upgrade[] = [
     slot: 'Hardpoint',
     exhaust: false,
     restrictions: { name: 'AT-RT only', ldf: 'atrt' },
-    points: 30,
+    points: 20,
     keywords: [
       {
         name: 'Fixed: Front',
