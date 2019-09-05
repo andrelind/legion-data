@@ -63,7 +63,7 @@ const units: Unit[] = [
     subtitle: 'Dark Lord of the Sith',
     side: 'dark',
     type: 'Trooper',
-    points: 200,
+    points: 190,
     rank: 'Commander',
     minis: 1,
     wounds: 8,
