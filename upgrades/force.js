@@ -36,7 +36,7 @@ const upgrades: Upgrade[] = [
     name: 'Force Reflexes',
     side: 'neutral',
     slot: 'Force',
-    points: 15,
+    points: 10,
     description: '[action] Gain 1 dodge token.',
   },
   {
