@@ -6,7 +6,7 @@ const units: Array<Unit> = [
     ldf: 't47airspeeder',
     name: 'T-47 Airspeeder',
     side: 'light',
-    points: 175,
+    points: 140,
     rank: 'Heavy',
     type: 'Vehicle',
     minis: 1,
