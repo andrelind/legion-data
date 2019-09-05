@@ -141,7 +141,7 @@ const units: Array<Unit> = [
     ldf: 'scouttroopersstriketeam',
     name: 'Scout Troopers Strike Team',
     side: 'dark',
-    points: 16,
+    points: 20,
     rank: 'Special Forces',
     type: 'Trooper',
     minis: 1,
