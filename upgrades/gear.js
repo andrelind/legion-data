@@ -21,7 +21,7 @@ const upgrades: Upgrade[] = [
     name: 'Targeting Scopes',
     side: 'neutral',
     slot: 'Gear',
-    points: 6,
+    points: 4,
     keywords: [
       {
         name: 'You gain <strong>PRECISE 1</strong>',
