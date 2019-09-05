@@ -7,7 +7,7 @@ const upgrades: Upgrade[] = [
     name: 'Battle Meditation',
     side: 'neutral',
     slot: 'Force',
-    points: 10,
+    points: 5,
     description:
       'While you are issuing orders using a command card, you may issue 1 of those orders to any friendly unit on the battlefeld, instead of a unit indicated on the command card.',
   },
