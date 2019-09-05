@@ -7,7 +7,7 @@ const upgrades: Upgrade[] = [
     name: 'AT-RT Laser Cannon',
     side: 'light',
     slot: 'Hardpoint',
-    points: 35,
+    points: 20,
     restrictions: { name: 'AT-RT only', ldf: 'atrt' },
     keywords: [
       {
