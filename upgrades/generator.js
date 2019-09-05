@@ -7,7 +7,7 @@ const upgrades: Upgrade[] = [
     name: 'Barrage Generator',
     side: 'neutral',
     slot: 'Generator',
-    points: 10,
+    points: 7,
     exhaust: true,
     description:
       'While performing a ranged attack with a weapon that has <strong>FIXED</strong>, add 2 white attack dice and apply <strong>SUPPRESSIVE</strong> to your attack pool.',
