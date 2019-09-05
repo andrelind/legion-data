@@ -411,7 +411,7 @@ const units: Unit[] = [
     unique: true,
     side: 'light',
     type: 'Trooper',
-    points: 130,
+    points: 110,
     rank: 'Commander',
     minis: 1,
     wounds: 6,
