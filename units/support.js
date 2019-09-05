@@ -50,7 +50,7 @@ const units: Array<Unit> = [
     ldf: '74zspeederbikes',
     name: '74-Z Speeder Bikes',
     side: 'dark',
-    points: 90,
+    points: 75,
     rank: 'Support',
     type: 'Vehicle',
     minis: 2,
@@ -104,11 +104,6 @@ const units: Array<Unit> = [
       {
         name: 'Full Pivot',
         description: 'When you pivot, you can pivot up to 360°.',
-      },
-      {
-        name: 'Plodding',
-        description:
-          'During your activation, you can perform only 1 standard move.',
       },
       {
         name: 'Reposition',
@@ -180,7 +175,7 @@ const units: Array<Unit> = [
       },
       {
         name: '1.4 FD Laser Cannon',
-        range: { from: 1, to: 4 },
+        range: { from: 1, to: 5 },
         dice: { black: 5 },
         keywords: ['Impact 2', 'Fixed: Front'],
       },

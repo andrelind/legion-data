@@ -7,7 +7,7 @@ const upgrades: Upgrade[] = [
     name: 'AT-RT Laser Cannon',
     side: 'light',
     slot: 'Hardpoint',
-    points: 35,
+    points: 20,
     restrictions: { name: 'AT-RT only', ldf: 'atrt' },
     keywords: [
       {
@@ -32,7 +32,7 @@ const upgrades: Upgrade[] = [
     slot: 'Hardpoint',
     exhaust: false,
     restrictions: { name: 'AT-RT only', ldf: 'atrt' },
-    points: 30,
+    points: 20,
     keywords: [
       {
         name: 'Fixed: Front',
@@ -50,7 +50,7 @@ const upgrades: Upgrade[] = [
     side: 'light',
     slot: 'Hardpoint',
     restrictions: { name: 'AT-RT only', ldf: 'atrt' },
-    points: 25,
+    points: 20,
     keywords: [
       {
         name: 'Blast',
@@ -144,7 +144,7 @@ const upgrades: Upgrade[] = [
     name: 'Ax-108 Ground Buzzer',
     side: 'light',
     slot: 'Hardpoint',
-    points: 20,
+    points: 10,
     restrictions: { name: 'T-47 Airspeeder only', ldf: 't47airspeeder' },
     keywords: [
       {
@@ -159,10 +159,10 @@ const upgrades: Upgrade[] = [
   },
   {
     ldf: 'modkpowerharpoon',
-    name: 'MoDk Power Harpoon',
+    name: 'Mo/Dk Power Harpoon',
     side: 'light',
     slot: 'Hardpoint',
-    points: 8,
+    points: 3,
     restrictions: { name: 'T-47 Airspeeder only', ldf: 't47airspeeder' },
     keywords: [
       {

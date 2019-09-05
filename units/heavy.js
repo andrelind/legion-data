@@ -6,7 +6,7 @@ const units: Array<Unit> = [
     ldf: 't47airspeeder',
     name: 'T-47 Airspeeder',
     side: 'light',
-    points: 175,
+    points: 140,
     rank: 'Heavy',
     type: 'Vehicle',
     minis: 1,
@@ -39,6 +39,10 @@ const units: Array<Unit> = [
         description:
           'While moving, ignore terrain that is height 2 or lower. When you activate, perform a compulsory move.',
       },
+      {
+        name: 'Immune: Range 1 Weapons',
+        description: '',
+      },
     ],
     weapons: [
       {
@@ -54,7 +58,7 @@ const units: Array<Unit> = [
     ldf: 'atst',
     name: 'AT-ST',
     side: 'dark',
-    points: 195,
+    points: 170,
     rank: 'Heavy',
     type: 'Vehicle',
     minis: 1,

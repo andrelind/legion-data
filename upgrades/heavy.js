@@ -30,7 +30,7 @@ const upgrades: Upgrade[] = [
     slot: 'Heavy Weapon',
     restrictions: { name: 'Stormtroopers only', ldf: 'stormtroopers' },
     description: 'Add 1 HH-12 Stormtrooper mini',
-    points: 34,
+    points: 26,
     keywords: [
       {
         name: 'Cumbersome',
@@ -53,7 +53,7 @@ const upgrades: Upgrade[] = [
     name: 'MPL-57 Ion Trooper',
     side: 'light',
     slot: 'Heavy Weapon',
-    points: 32,
+    points: 24,
     exhaust: true,
     restrictions: { name: 'Rebel Troopers only', ldf: 'rebeltroopers' },
     description: 'Add 1 MPL-57 ion trooper figure',
@@ -92,7 +92,7 @@ const upgrades: Upgrade[] = [
     name: 'T-7 Ion Snowtrooper',
     side: 'dark',
     slot: 'Heavy Weapon',
-    points: 34,
+    points: 26,
     exhaust: true,
     restrictions: { name: 'Snowtroopers only', ldf: 'snowtroopers' },
     description: 'Add 1 T-7 Ion trooper figure',
@@ -109,7 +109,7 @@ const upgrades: Upgrade[] = [
       },
     ],
     weapon: {
-      range: { from: 1, to: 2 },
+      range: { from: 1, to: 3 },
       dice: { black: 1, white: 2 },
     },
   },
@@ -137,7 +137,7 @@ const upgrades: Upgrade[] = [
     name: 'MPL-57 Barrage Trooper',
     side: 'light',
     slot: 'Heavy Weapon',
-    points: 33,
+    points: 25,
     restrictions: { name: 'Fleet Troopers only', ldf: 'fleettroopers' },
     description: 'Add 1 MPL-57 barrage trooper mini',
     exhaust: true,
@@ -201,7 +201,7 @@ const upgrades: Upgrade[] = [
       },
     ],
     weapon: {
-      range: { from: 1 },
+      range: { from: 1, to: 5 },
       dice: { black: 1, white: 1 },
     },
   },
@@ -347,7 +347,7 @@ const upgrades: Upgrade[] = [
       },
     ],
     weapon: {
-      range: { from: 1 },
+      range: { from: 1, to: 5 },
       dice: { black: 2 },
     },
   },
@@ -515,7 +515,7 @@ const upgrades: Upgrade[] = [
     name: 'CM-O/93 Trooper',
     side: 'light',
     slot: 'Heavy Weapon',
-    points: 31,
+    points: 26,
     restrictions: {
       name: 'Rebel Veterans only',
       ldf: 'rebelveterans',

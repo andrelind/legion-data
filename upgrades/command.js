@@ -7,7 +7,7 @@ const upgrades: Upgrade[] = [
     name: 'Commanding Presence',
     side: 'neutral',
     slot: 'Command',
-    points: 10,
+    points: 5,
     description: 'When issuing orders, you can issue orders at range 4.',
   },
   {

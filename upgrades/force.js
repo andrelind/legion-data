@@ -7,7 +7,7 @@ const upgrades: Upgrade[] = [
     name: 'Battle Meditation',
     side: 'neutral',
     slot: 'Force',
-    points: 10,
+    points: 5,
     description:
       'While you are issuing orders using a command card, you may issue 1 of those orders to any friendly unit on the battlefeld, instead of a unit indicated on the command card.',
   },
@@ -36,7 +36,7 @@ const upgrades: Upgrade[] = [
     name: 'Force Reflexes',
     side: 'neutral',
     slot: 'Force',
-    points: 15,
+    points: 10,
     description: '[action] Gain 1 dodge token.',
   },
   {
@@ -44,7 +44,7 @@ const upgrades: Upgrade[] = [
     name: 'Saber Throw',
     side: 'neutral',
     slot: 'Force',
-    points: 10,
+    points: 5,
     description:
       "[action] Choose 1 of your melee weapons. Perform a ranged attack with the weapon against an enemy unit at range 1-2, using half of that weapon's dice, rounded up. This is treated as an attack action.",
   },

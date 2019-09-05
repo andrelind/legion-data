@@ -9,14 +9,14 @@ const upgrades: Upgrade[] = [
       'Enemy units at range 1 cannot be issued orders, unless they are issuing an order to themselves.',
     side: 'neutral',
     slot: 'Comms',
-    points: 15,
+    points: 5,
   },
   {
     ldf: 'longrangecomlink',
     name: 'Long-Range Comlink',
     side: 'neutral',
     slot: 'Comms',
-    points: 10,
+    points: 5,
     description:
       'During the Command Phase, you can be issued orders by friendly commander or operative units regardless of range.',
   },

@@ -70,7 +70,7 @@ const units: Array<Unit> = [
     ldf: 'chewbacca',
     name: 'Chewbacca',
     side: 'light',
-    points: 110,
+    points: 95,
     rank: 'Operative',
     type: 'Trooper',
     minis: 1,
