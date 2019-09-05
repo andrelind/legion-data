@@ -48,7 +48,7 @@ const upgrades: Upgrade[] = [
     name: 'Emergency Stims',
     side: 'neutral',
     slot: 'Gear',
-    points: 8,
+    points: 12,
     exhaust: true,
     keywords: [
       {
