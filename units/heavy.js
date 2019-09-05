@@ -58,7 +58,7 @@ const units: Array<Unit> = [
     ldf: 'atst',
     name: 'AT-ST',
     side: 'dark',
-    points: 195,
+    points: 170,
     rank: 'Heavy',
     type: 'Vehicle',
     minis: 1,
