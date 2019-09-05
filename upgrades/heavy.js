@@ -92,7 +92,7 @@ const upgrades: Upgrade[] = [
     name: 'T-7 Ion Snowtrooper',
     side: 'dark',
     slot: 'Heavy Weapon',
-    points: 34,
+    points: 26,
     exhaust: true,
     restrictions: { name: 'Snowtroopers only', ldf: 'snowtroopers' },
     description: 'Add 1 T-7 Ion trooper figure',
