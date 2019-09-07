@@ -18,7 +18,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "json": "babel-node tojson.js"
+    "json": "babel-node tojson.js",
+    "patch": "release-it patch",
+    "minor": "release-it minor",
+    "major": "release-it major"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -30,6 +33,7 @@
     "eslint": "^4.19.1",
     "eslint-plugin-prettier": "^2.6.0",
     "flow-bin": "^0.93.0",
-    "prettier": "^1.13.4"
+    "prettier": "^1.13.4",
+    "release-it": "^12.3.6"
   }
 }
