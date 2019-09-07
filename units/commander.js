@@ -317,7 +317,7 @@ const units: Unit[] = [
   },
   {
     ldf: 'rebelofficer',
-    name: 'Rebel Office',
+    name: 'Rebel Officer',
     unique: false,
     side: 'light',
     type: 'Trooper',
@@ -362,7 +362,7 @@ const units: Unit[] = [
   },
   {
     ldf: 'imperialofficer',
-    name: 'Imperial Office',
+    name: 'Imperial Officer',
     unique: false,
     side: 'dark',
     type: 'Trooper',
