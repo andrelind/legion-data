@@ -297,7 +297,8 @@ const units: Array<Unit> = [
         dice: { black: 1 },
       },
     ],
-  },{
+  },
+  {
     ldf: 'df90mortartrooper',
     name: 'DF-90 Mortar Trooper',
     side: 'dark',
