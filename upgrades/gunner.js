@@ -40,6 +40,27 @@ const upgrades: Upgrade[] = [
       dice: { white: 1, black: 1, red: 1 },
     },
   },
+  {
+    ldf: 'barctwinlasergunner',
+    name: 'BARC Twin Laser Gunner',
+    points: 18,
+    slot: 'Gunner',
+    description: 'Reduce your maximum speed by 1.',
+    restrictions: {
+      name: 'BARC Speeder',
+      ldf: 'barcspeeder',
+    },
+    keywords: [
+      {
+        name: 'Fixed: Front, Rear',
+        description: 'The defender must be inside your front or rear arc',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { black: 2, white: 2 },
+    },
+  },
 ];
 
 export default upgrades;

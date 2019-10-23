@@ -72,7 +72,16 @@ const upgrades: Upgrade[] = [
     slot: 'Force',
     points: 3,
     description:
-      'Light Side only. You gain Inspire 1 (After your rally step, remove up to 1 suppression token from another friendly unit at range 1-2.)',
+      'Light Side only.\n\nYou gain Inspire 1 (After your rally step, remove up to 1 suppression token from another friendly unit at range 1-2.)',
+  },
+  {
+    ldf: 'forceguidance',
+    name: 'Force Guidance',
+    side: 'neutral',
+    slot: 'Force',
+    points: 10,
+    description:
+      'Choose up to 2 friendly units at range 1-2. Each chosen unit gains 1 surge token.',
   },
 ];
 
