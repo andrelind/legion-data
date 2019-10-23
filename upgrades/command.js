@@ -38,6 +38,15 @@ const upgrades: Upgrade[] = [
     description:
       'When a friendly trooper unit with a faceup order token activates, during its Rally step, it may remove 1 suppression token instead of rolling dice.',
   },
+  {
+    ldf: 'aggressivetactics',
+    name: 'Aggressive Tactics',
+    side: 'neutral',
+    slot: 'Command',
+    points: 10,
+    description:
+      'While you are the nominated commander, after issuing orders, choose up to 4 friendly units with faceup order tokens. Each chosen unit gains 1 surge token.',
+  },
 ];
 
 export default upgrades;
