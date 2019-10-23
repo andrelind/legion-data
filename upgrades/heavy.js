@@ -595,6 +595,22 @@ const upgrades: Upgrade[] = [
       dice: { white: 6 },
     },
   },
+  {
+    ldf: 'e5cb1trooper',
+    name: 'E-5C B1 Trooper',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 18,
+    restrictions: {
+      name: 'Phase I Clone Troopers only',
+      ldf: 'phaseiclonetroopers',
+    },
+    description: 'Add 1 E-5C B1 trooper mini.',
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { black: 3 },
+    },
+  },
 ];
 
 export default upgrades;
