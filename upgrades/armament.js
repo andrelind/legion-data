@@ -158,6 +158,22 @@ const upgrades: Upgrade[] = [
       dice: { black: 5 },
     },
   },
+  {
+    ldf: 'dt57annihilator',
+    name: 'DT-57 "Annihilator"',
+    points: 12,
+    restrictions: {
+      name: 'General Grievous only',
+      ldf: 'generalgrievous',
+    },
+    side: 'dark',
+    slot: 'Armament',
+    keywords: ['Critical 1', 'Pierce 1', 'Versatile'],
+    weapon: {
+      range: { from: 0, to: 2 },
+      dice: { black: 2, white: 2 },
+    },
+  },
 ];
 
 export default upgrades;
