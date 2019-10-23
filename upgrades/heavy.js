@@ -602,8 +602,8 @@ const upgrades: Upgrade[] = [
     slot: 'Heavy Weapon',
     points: 18,
     restrictions: {
-      name: 'Phase I Clone Troopers only',
-      ldf: 'phaseiclonetroopers',
+      name: 'B1 Battle Droids only.',
+      ldf: 'b1battledroids',
     },
     description: 'Add 1 E-5C B1 trooper mini.',
     weapon: {
