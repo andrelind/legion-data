@@ -79,6 +79,7 @@ const upgrades: Upgrade[] = [
     name: 'Force Guidance',
     side: 'neutral',
     slot: 'Force',
+    exhaust: true,
     points: 10,
     description:
       'Choose up to 2 friendly units at range 1-2. Each chosen unit gains 1 surge token.',

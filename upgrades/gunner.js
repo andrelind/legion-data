@@ -88,6 +88,7 @@ const upgrades: Upgrade[] = [
     name: 'BARC Ion Gunner',
     points: 28,
     slot: 'Gunner',
+    exhaust: true,
     description: 'Reduce your maximum speed by 1.',
     restrictions: {
       name: 'BARC Speeder only',

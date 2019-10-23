@@ -611,6 +611,30 @@ const upgrades: Upgrade[] = [
       dice: { black: 3 },
     },
   },
+  {
+    ldf: 'e60rb1trooper',
+    name: 'E-60R B1 Trooper',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 20,
+    exhaust: true,
+    restrictions: {
+      name: 'B1 Battle Droids only.',
+      ldf: 'b1battledroids',
+    },
+    description: 'Add 1 E-60R B1 trooper mini.',
+    keywords: [
+      {
+        name: 'Impact 2',
+        description:
+          'While attacking a unit that has Armor, change up to 2 [Hit] results to [Crit] results.',
+      },
+    ],
+    weapon: {
+      range: { from: 2, to: 4 },
+      dice: { red: 1, black: 2 },
+    },
+  },
 ];
 
 export default upgrades;
