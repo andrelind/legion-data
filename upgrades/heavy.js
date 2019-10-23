@@ -525,7 +525,7 @@ const upgrades: Upgrade[] = [
       {
         name: 'Critical 2',
         description:
-          'While converting offensive surges, change up to 2 Dice Surge results to [crit] results.',
+          'While converting offensive surges, change up to 2 [Surge] results to [Crit] results.',
       },
     ],
     weapon: {
@@ -548,12 +548,35 @@ const upgrades: Upgrade[] = [
       {
         name: 'Critical 1',
         description:
-          'While converting offensive surges, change up to 1 [Hit] results to [Crit] results.',
+          'While converting offensive surges, change up to 1 [Surge] result to a [Crit] result.',
       },
     ],
     weapon: {
       range: { from: 1, to: 4 },
       dice: { white: 2, black: 2 },
+    },
+  },
+  {
+    ldf: 'dc15phaseitrooper',
+    name: 'DC-15 Phase I Trooper',
+    side: 'light',
+    slot: 'Personnel',
+    points: 30,
+    restrictions: {
+      name: 'Phase I Clone Troopers only',
+      ldf: 'phaseiclonetroopers',
+    },
+    description: 'Add 1 DC-15 Phase I trooper mini.',
+    keywords: [
+      {
+        name: 'Critical 1',
+        description:
+          'While converting offensive surges, change up to 1 [Surge] result to a [Crit] result.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { red: 2 },
     },
   },
 ];
