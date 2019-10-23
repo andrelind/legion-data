@@ -560,7 +560,7 @@ const upgrades: Upgrade[] = [
     ldf: 'dc15phaseitrooper',
     name: 'DC-15 Phase I Trooper',
     side: 'light',
-    slot: 'Personnel',
+    slot: 'Heavy Weapon',
     points: 30,
     restrictions: {
       name: 'Phase I Clone Troopers only',
@@ -577,6 +577,22 @@ const upgrades: Upgrade[] = [
     weapon: {
       range: { from: 1, to: 4 },
       dice: { red: 2 },
+    },
+  },
+  {
+    ldf: 'z6phaseitrooper',
+    name: 'Z-6 Phase I Trooper',
+    side: 'light',
+    slot: 'Heavy Weapon',
+    points: 25,
+    restrictions: {
+      name: 'Phase I Clone Troopers only',
+      ldf: 'phaseiclonetroopers',
+    },
+    description: 'Add 1 Z-6 Phase I trooper mini.',
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { white: 6 },
     },
   },
 ];
