@@ -351,6 +351,44 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'b1battledroids',
+    name: 'B1 Battle Droids',
+    side: 'dark',
+    points: 36,
+    rank: 'Corps',
+    type: 'Trooper',
+    minis: 6,
+    wounds: 1,
+    courage: 1,
+    defense: 'white',
+    speed: 2,
+    slots: ['Comms', 'Heavy Weapon', 'Personnel'],
+    keywords: [
+      {
+        name: 'AI: Attack',
+        description:
+          'Unless you have a faceup order token, your first action must be an attack, if able.',
+      },
+      {
+        name: 'Coordinate: Droid Trooper',
+        description:
+          'After you are issued an order, you may issue an order to a friendly droid trooper unit at range 1',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Bludgeon',
+        range:{ from: 0, to: 0 },
+        dice: { white: 1 },
+      },
+      {
+        name: 'E-5 Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { white: 1 },
+      },
+    ],
+  }
 ];
 
 export default units;
