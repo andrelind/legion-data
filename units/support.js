@@ -234,6 +234,50 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'droidekas',
+    name: 'Droidekas',
+    side: 'dark',
+    points: '100',
+    rank: 'Support',
+    type: 'Ground Vehicle',
+    minis: 2,
+    wounds: 3,
+    resilience: 0,
+    defense: 'white',
+    surge: { defense: 'block' },
+    speed: 1,
+    slots: ['Comms'],
+    keywords: [
+      {
+        name: 'AI: Attack, Move',
+        description:
+          'Unless you have a faceup order token, your first action must be an attack or move.',
+      },
+      {
+        name: 'Generator 1',
+        description:
+          'During the End Phase, flip 1 inactive shield token'
+      },
+      {
+        name: 'Shielded',
+        description: 'You have 4 shield tokens.',
+      },
+      {
+        name: 'Wheel Mode',
+        description:
+          'When you activate, you may increase you maximum speed to 3. If you do, until the end of the round, you gain Cover 2 and cannot attack or flip active shield tokens',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Dual Twin Blaster Cannons',
+        range: { from: 1, to: 3 },
+        dice: { red: 1, black: 2 },
+        keywords: ['Suppressive', 'Fixed: Front', 'Immune: Deflect'],
+      }
+    ],
+  },
 ];
 
 export default units;
