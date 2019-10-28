@@ -502,6 +502,68 @@ const units: Unit[] = [
       'annihilationlooms',
     ],
   },
+  {
+    ldf: 'generalgrievous',
+    name: 'General Grievous',
+    unique: true,
+    side: 'dark',
+    rank: 'Commander',
+    type: 'Trooper',
+    points: 175,
+    minis: 1,
+    wounds: 8,
+    courage: 2,
+    speed: 2,
+    defense: 'red',
+    slots: ['Armament', 'Command', 'Command', 'Elite'],
+    keywords: [
+      {
+        name: 'Arsenal 2',
+        description:
+          'While attacking, each model on this unit can use up to 2 of its weapons',
+      },
+      {
+        name: 'Block',
+        description:
+          'While defending, if you spend a dodge token, you gain "[Block Surge] : [Block]".',
+      },
+      {
+        name: 'Impervious',
+        description:
+          'While defending, if the attack pool has Pierce X, roll x additional defense dice.',
+      },
+      {
+        name: 'Jedi Hunter',
+        description:
+          'While attacking a unit that has a Force upgrade icon, you gain "[Surge] : [Crit]".',
+      },
+      {
+        name: 'Relentless',
+        description:
+          'After you perform a move action, you may perform a free attack action.',
+      },
+      {
+        name: 'Scale',
+        description:
+          'You gain Unhindered and Expert Climber. You may perform a free clamber maneuver before or after you move.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Trophy Lightsabers',
+        dice: { red: 1, black: 2, white: 1 },
+        range: { from: 0, to: 0 },
+        keywords: ['Impact 1', 'Pierce 1'],
+      },
+      {
+        name: 'Trophy Lightsabers',
+        dice: { red: 1, black: 2, white: 1 },
+        range: { from: 0, to: 0 },
+        keywords: ['Impact 1', 'Pierce 1'],
+      },
+    ],
+    commandCards: ['trainedinyourjediarts', 'supremecommander', 'crushthem'],
+  },
 ];
 
 export default units;
