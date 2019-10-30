@@ -277,6 +277,46 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'barcspeeder',
+    name: 'BARC Speeder',
+    side: 'light',
+    points: '75',
+    rank: 'Support',
+    type: 'Repulsor Vehicle',
+    minis: 1,
+    wounds: 5,
+    resilience: 3,
+    defense: 'red',
+    surge: { attack: 'hit' },
+    speed: 3,
+    slots: ['Comms', 'Gunner'],
+    keywords: [
+      {
+        name: 'Arsenal 2',
+        description:
+          'While attacking, each model on this unit can use up to 2 of its weapons.',
+      },
+      {
+        name: 'Cover 1',
+        description:
+          'While defending against a ranged attack, improve your cover by 1.',
+      },
+      {
+        name: 'Speeder 1',
+        description:
+          'While moving, ignore terrain that is height 1 or lower. When you activate, perform a compulsory move.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Twin Light Blaster Cannons',
+        range: { from: 1, to: 3 },
+        dice: { red: 1, black: 2, white: 1 },
+        keywords: ['Fixed: Front'],
+      },
+    ],
+  },
 ];
 
 export default units;
