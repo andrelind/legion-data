@@ -256,8 +256,7 @@ const units: Array<Unit> = [
       },
       {
         name: 'Generator 1',
-        description:
-          'During the End Phase, flip 1 inactive shield token'
+        description: 'During the End Phase, flip 1 inactive shield token',
       },
       {
         name: 'Shielded',
@@ -275,7 +274,7 @@ const units: Array<Unit> = [
         range: { from: 1, to: 3 },
         dice: { red: 1, black: 2 },
         keywords: ['Suppressive', 'Fixed: Front', 'Immune: Deflect'],
-      }
+      },
     ],
   },
 ];
