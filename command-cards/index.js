@@ -389,6 +389,35 @@ const cards: CommandCard[] = [
     description:
       'Bossk gains Sharpshooter 1. After an enemy unit activates, Bossk gains 1 aim token.',
   },
+  {
+    ldf: 'trainedinyourjediarts',
+    name: 'Trained in Your Jedi Arts',
+    pips: 1,
+    orders: 'General Grievous',
+    description:
+      'General Grievous gains Disengage and 1 dodge token. At the end of his activation he may perform an attack against each enemy unit at range 1 using the following weapon:',
+    weapon: {
+      range: { from: 0, to: 1 },
+      dice: { red: 1, black: 2, white: 1 },
+      keywords: ['Suppressive', 'Versatile'],
+    },
+  },
+  {
+    ldf: 'supremecommander',
+    name: 'Supreme Commander',
+    pips: 2,
+    orders: '2 Troopers',
+    description:
+      'General Grievous gains 1 surge token for each friendly trooper unit at range 1. While another friendly trooper unit has a faceup order token, it gains Guardian 2 and can use Guardian during a melee attack.',
+  },
+  {
+    ldf: 'crushthem',
+    name: 'Crush Them!',
+    pips: 3,
+    orders: 'General Grievous & 2 Units',
+    description:
+      'When General Grievous issues an order to a unit, that unit gains 1 surge token for each defeated enemy unit.',
+  },
 ];
 
 export default cards;
