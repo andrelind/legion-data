@@ -57,6 +57,22 @@ const upgrades: Upgrade[] = [
       dice: { red: 1 },
     },
   },
+  {
+    ldf: 'smokegrenades',
+    name: 'Smoke Grenades',
+    side: 'neutral',
+    slot: 'Grenades',
+    points: 6,
+    description:
+      'You gain [Card Action] Smoke 1 (Place 1 smoke token within range 1 and in line of sight of your unit leader.)',
+    keywords: [
+      {
+        name: 'Smoke 1',
+        description:
+          'Place 1 smoke token within range 1 and in line of sight of your unit leader.',
+      },
+    ],
+  },
 ];
 
 export default upgrades;
