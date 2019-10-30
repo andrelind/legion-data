@@ -379,7 +379,7 @@ const units: Array<Unit> = [
     weapons: [
       {
         name: 'Bludgeon',
-        range:{ from: 0, to: 0 },
+        range: { from: 0, to: 0 },
         dice: { white: 1 },
       },
       {
@@ -388,7 +388,40 @@ const units: Array<Unit> = [
         dice: { white: 1 },
       },
     ],
-  }
+  },
+  {
+    ldf: 'phaseiclonetroopers',
+    name: 'Phase I Clone Troopers',
+    side: 'light',
+    points: 52,
+    rank: 'Corps',
+    type: 'Trooper',
+    minis: 6,
+    wounds: 1,
+    courage: 1,
+    defense: 'red',
+    speed: 2,
+    slots: ['Gear', 'Grenades', 'Heavy Weapon', 'Personnel'],
+    keywords: [
+      {
+        name: 'Fire Support',
+        description:
+          'When another friendly unit performs a ranged attack, if you have a faceup order token, each mini in your unit may add an eligible weapon to the attack pool. If you do, flip your order token facedown. Limit 1 Fire Support per attack pool.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0, to: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: 'DC-15A Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { black: 1 },
+      },
+    ],
+  },
 ];
 
 export default units;
