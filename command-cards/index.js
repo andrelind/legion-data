@@ -418,6 +418,30 @@ const cards: CommandCard[] = [
     description:
       'When General Grievous issues an order to a unit, that unit gains 1 surge token for each defeated enemy unit.',
   },
+  {
+    ldf: 'hellothere',
+    name: 'Hello There',
+    pips: 1,
+    orders: 'Obi-Wan Kenobi',
+    description:
+      'Obi-Wan Kenobi gains Nimble. At the start of the Activation Phase, Obi-Wan Kenobi gains 1 aim, 1 dodge, 1 standby, or 1 surge token for each enemy unit at range 1-2.',
+  },
+  {
+    ldf: 'knowledgeanddefense',
+    name: 'Knowledge and Defense',
+    pips: 2,
+    orders: '2 Troopers',
+    description:
+      'Obi-Wan Kenobi gains 1 dodge token for each other friendly trooper unit at range 1. Obi-Wan Kenobi can use Guardian during a melee attack.',
+  },
+  {
+    ldf: 'generalkenobi',
+    name: 'General Kenobi',
+    pips: 3,
+    orders: 'Obi-Wan Kenobi & 2 Units',
+    description:
+      'When Obi-Wan Kenobi issues an order to a unit, that unit gains 1 surge token for each other friendly unit at range 1 of it.',
+  },
 ];
 
 export default cards;
