@@ -613,6 +613,23 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'phaseiclonetroopersunit',
+    name: 'Phase I Clone Troopers Unit',
+    wave: 7,
+    released: true,
+    contents: {
+      units: {
+        phaseiclonetroopers: 1,
+      },
+      upgrades: {
+        smokegrenades: 1,
+        dc15phaseitrooper: 1,
+        z6phaseitrooper: 1,
+        phaseitrooper: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
