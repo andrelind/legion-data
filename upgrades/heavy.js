@@ -525,7 +525,7 @@ const upgrades: Upgrade[] = [
       {
         name: 'Critical 2',
         description:
-          'While converting offensive surges, change up to 2 Dice Surge results to [crit] results.',
+          'While converting offensive surges, change up to 2 [Surge] results to [Crit] results.',
       },
     ],
     weapon: {
@@ -548,12 +548,91 @@ const upgrades: Upgrade[] = [
       {
         name: 'Critical 1',
         description:
-          'While converting offensive surges, change up to 1 [Hit] results to [Crit] results.',
+          'While converting offensive surges, change up to 1 [Surge] result to a [Crit] result.',
       },
     ],
     weapon: {
       range: { from: 1, to: 4 },
       dice: { white: 2, black: 2 },
+    },
+  },
+  {
+    ldf: 'dc15phaseitrooper',
+    name: 'DC-15 Phase I Trooper',
+    side: 'light',
+    slot: 'Heavy Weapon',
+    points: 30,
+    restrictions: {
+      name: 'Phase I Clone Troopers only',
+      ldf: 'phaseiclonetroopers',
+    },
+    description: 'Add 1 DC-15 Phase I trooper mini.',
+    keywords: [
+      {
+        name: 'Critical 1',
+        description:
+          'While converting offensive surges, change up to 1 [Surge] result to a [Crit] result.',
+      },
+    ],
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { red: 2 },
+    },
+  },
+  {
+    ldf: 'z6phaseitrooper',
+    name: 'Z-6 Phase I Trooper',
+    side: 'light',
+    slot: 'Heavy Weapon',
+    points: 25,
+    restrictions: {
+      name: 'Phase I Clone Troopers only',
+      ldf: 'phaseiclonetroopers',
+    },
+    description: 'Add 1 Z-6 Phase I trooper mini.',
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { white: 6 },
+    },
+  },
+  {
+    ldf: 'e5cb1trooper',
+    name: 'E-5C B1 Trooper',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 18,
+    restrictions: {
+      name: 'B1 Battle Droids only.',
+      ldf: 'b1battledroids',
+    },
+    description: 'Add 1 E-5C B1 trooper mini.',
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { black: 3 },
+    },
+  },
+  {
+    ldf: 'e60rb1trooper',
+    name: 'E-60R B1 Trooper',
+    side: 'dark',
+    slot: 'Heavy Weapon',
+    points: 20,
+    exhaust: true,
+    restrictions: {
+      name: 'B1 Battle Droids only.',
+      ldf: 'b1battledroids',
+    },
+    description: 'Add 1 E-60R B1 trooper mini.',
+    keywords: [
+      {
+        name: 'Impact 2',
+        description:
+          'While attacking a unit that has Armor, change up to 2 [Hit] results to [Crit] results.',
+      },
+    ],
+    weapon: {
+      range: { from: 2, to: 4 },
+      dice: { red: 1, black: 2 },
     },
   },
 ];

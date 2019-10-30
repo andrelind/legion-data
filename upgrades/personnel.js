@@ -200,6 +200,30 @@ const upgrades: Upgrade[] = [
     restrictions: { name: 'Shoretroopers only', ldf: 'shoretroopers' },
     description: 'Add 1 Shoretrooper mini.',
   },
+  {
+    ldf: 'phaseiclonetrooper',
+    name: 'Phase I Clone Trooper',
+    side: 'light',
+    slot: 'Personnel',
+    points: 13,
+    restrictions: {
+      name: 'Phase I Clone Troopers only',
+      ldf: 'phaseiclonetroopers',
+    },
+    description: 'Add 1 Phase I Clone trooper mini.',
+  },
+  {
+    ldf: 'b1battledroid',
+    name: 'B1 Battle Droid',
+    side: 'dark',
+    slot: 'Personnel',
+    points: 6,
+    restrictions: {
+      name: 'B1 Battle Droids only',
+      ldf: 'b1battledroids',
+    },
+    description: 'Add 1 B1 Battle Droid mini.',
+  },
 ];
 
 export default upgrades;

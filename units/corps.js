@@ -297,7 +297,8 @@ const units: Array<Unit> = [
         dice: { black: 1 },
       },
     ],
-  },{
+  },
+  {
     ldf: 'df90mortartrooper',
     name: 'DF-90 Mortar Trooper',
     side: 'dark',
@@ -347,6 +348,77 @@ const units: Array<Unit> = [
         range: { from: 3, to: 4 },
         dice: { white: 3 },
         keywords: ['Critical 1', 'Cumbersome', 'Suppressive', 'Fixed: Front'],
+      },
+    ],
+  },
+  {
+    ldf: 'b1battledroids',
+    name: 'B1 Battle Droids',
+    side: 'dark',
+    points: 36,
+    rank: 'Corps',
+    type: 'Trooper',
+    minis: 6,
+    wounds: 1,
+    courage: 1,
+    defense: 'white',
+    speed: 2,
+    slots: ['Comms', 'Heavy Weapon', 'Personnel'],
+    keywords: [
+      {
+        name: 'AI: Attack',
+        description:
+          'Unless you have a faceup order token, your first action must be an attack, if able.',
+      },
+      {
+        name: 'Coordinate: Droid Trooper',
+        description:
+          'After you are issued an order, you may issue an order to a friendly droid trooper unit at range 1',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Bludgeon',
+        range: { from: 0, to: 0 },
+        dice: { white: 1 },
+      },
+      {
+        name: 'E-5 Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { white: 1 },
+      },
+    ],
+  },
+  {
+    ldf: 'phaseiclonetroopers',
+    name: 'Phase I Clone Troopers',
+    side: 'light',
+    points: 52,
+    rank: 'Corps',
+    type: 'Trooper',
+    minis: 6,
+    wounds: 1,
+    courage: 1,
+    defense: 'red',
+    speed: 2,
+    slots: ['Gear', 'Grenades', 'Heavy Weapon', 'Personnel'],
+    keywords: [
+      {
+        name: 'Fire Support',
+        description:
+          'When another friendly unit performs a ranged attack, if you have a faceup order token, each mini in your unit may add an eligible weapon to the attack pool. If you do, flip your order token facedown. Limit 1 Fire Support per attack pool.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Unarmed',
+        range: { from: 0, to: 0 },
+        dice: { black: 1 },
+      },
+      {
+        name: 'DC-15A Blaster Rifle',
+        range: { from: 1, to: 3 },
+        dice: { black: 1 },
       },
     ],
   },

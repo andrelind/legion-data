@@ -65,6 +65,25 @@ const upgrades: Upgrade[] = [
     points: 5,
     description: 'After you suffer 1 or more wounds, gain 1 aim token.',
   },
+  {
+    ldf: 'hope',
+    name: 'Hope',
+    side: 'light',
+    slot: 'Force',
+    points: 3,
+    description:
+      'Light Side only.\n\nYou gain Inspire 1 (After your rally step, remove up to 1 suppression token from another friendly unit at range 1-2.)',
+  },
+  {
+    ldf: 'forceguidance',
+    name: 'Force Guidance',
+    side: 'neutral',
+    slot: 'Force',
+    exhaust: true,
+    points: 10,
+    description:
+      'Choose up to 2 friendly units at range 1-2. Each chosen unit gains 1 surge token.',
+  },
 ];
 
 export default upgrades;

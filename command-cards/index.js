@@ -389,6 +389,59 @@ const cards: CommandCard[] = [
     description:
       'Bossk gains Sharpshooter 1. After an enemy unit activates, Bossk gains 1 aim token.',
   },
+  {
+    ldf: 'trainedinyourjediarts',
+    name: 'Trained in Your Jedi Arts',
+    pips: 1,
+    orders: 'General Grievous',
+    description:
+      'General Grievous gains Disengage and 1 dodge token. At the end of his activation he may perform an attack against each enemy unit at range 1 using the following weapon:',
+    weapon: {
+      range: { from: 0, to: 1 },
+      dice: { red: 1, black: 2, white: 1 },
+      keywords: ['Suppressive', 'Versatile'],
+    },
+  },
+  {
+    ldf: 'supremecommander',
+    name: 'Supreme Commander',
+    pips: 2,
+    orders: '2 Troopers',
+    description:
+      'General Grievous gains 1 surge token for each friendly trooper unit at range 1. While another friendly trooper unit has a faceup order token, it gains Guardian 2 and can use Guardian during a melee attack.',
+  },
+  {
+    ldf: 'crushthem',
+    name: 'Crush Them!',
+    pips: 3,
+    orders: 'General Grievous & 2 Units',
+    description:
+      'When General Grievous issues an order to a unit, that unit gains 1 surge token for each defeated enemy unit.',
+  },
+  {
+    ldf: 'hellothere',
+    name: 'Hello There',
+    pips: 1,
+    orders: 'Obi-Wan Kenobi',
+    description:
+      'Obi-Wan Kenobi gains Nimble. At the start of the Activation Phase, Obi-Wan Kenobi gains 1 aim, 1 dodge, 1 standby, or 1 surge token for each enemy unit at range 1-2.',
+  },
+  {
+    ldf: 'knowledgeanddefense',
+    name: 'Knowledge and Defense',
+    pips: 2,
+    orders: '2 Troopers',
+    description:
+      'Obi-Wan Kenobi gains 1 dodge token for each other friendly trooper unit at range 1. Obi-Wan Kenobi can use Guardian during a melee attack.',
+  },
+  {
+    ldf: 'generalkenobi',
+    name: 'General Kenobi',
+    pips: 3,
+    orders: 'Obi-Wan Kenobi & 2 Units',
+    description:
+      'When Obi-Wan Kenobi issues an order to a unit, that unit gains 1 surge token for each other friendly unit at range 1 of it.',
+  },
 ];
 
 export default cards;
