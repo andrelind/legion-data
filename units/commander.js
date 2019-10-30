@@ -564,6 +564,61 @@ const units: Unit[] = [
     ],
     commandCards: ['trainedinyourjediarts', 'supremecommander', 'crushthem'],
   },
+  {
+    ldf: 'obiwankenobi',
+    name: 'Obi-Wan Kenobi',
+    unique: true,
+    side: 'light',
+    rank: 'Commander',
+    type: 'Trooper',
+    points: 175,
+    minis: 1,
+    wounds: 6,
+    courage: 3,
+    speed: 2,
+    defense: 'red',
+    slots: ['Command', 'Force', 'Force', 'Elite'],
+    keywords: [
+      {
+        name: 'Jump 1',
+        description:
+          'Perform a move during which you ignore terrain that is height 1 or lower. This is treated as a move action',
+      },
+      {
+        name: 'Charge',
+        description:
+          'After you perform a move action, you may perform a free melee attack action.',
+      },
+      {
+        name: 'Guardian 3',
+        description:
+          'When a friendly unit at range 1 is defending against a ranged attack, you may choose up to 3 [Hit] results. For each result chosen, roll a defense die as though you were the defender.',
+      },
+      {
+        name: 'Immune: Pierce',
+        description: 'Pierce cannot be used against you.',
+      },
+      {
+        name: 'Master of the Force 1',
+        description:
+          'During the End Phase, you may ready 1 of your Force upgrade cards.',
+      },
+      {
+        name: 'Soresu Mastery',
+        description:
+          'While defending or using Guardian, if you spend a dodge token, you gain "[Block Surge] : [Block]" and the attacker suffers 1 wound for each [Block Surge] rolled.',
+      },
+    ],
+    weapons: [
+      {
+        name: "Obi-Wan's Lightsaber",
+        dice: { red: 2, black: 2, white: 2 },
+        range: { from: 0, to: 0 },
+        keywords: ['Critical 2', 'Impact 2', 'Pierce 2'],
+      },
+    ],
+    commandCards: ['hellothere', 'knowledgeanddefense', 'generalkenobi'],
+  },
 ];
 
 export default units;
