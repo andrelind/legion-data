@@ -99,6 +99,24 @@ const upgrades: Upgrade[] = [
       ldf: 'sabinewren',
     },
   },
+  {
+    ldf: 'electrobinoculars',
+    name: 'Electrobinoculars',
+    side: 'neutral',
+    slot: 'Gear',
+    points: 8,
+    description:
+      'You gain [Card Action] Spotter 1 (Choose 1 friendly unit at range 1. That unit gains 1 aim token.)\n' +
+      '\n' +
+      "B1 Battle Droids can ignore this card's Gear upgrade icon requirement.",
+    keywords: [
+      {
+        name: 'Spotter 1',
+        description:
+          'Choose 1 friendly unit at range 1. That unit gains 1 aim token.',
+      },
+    ],
+  },
 ];
 
 export default upgrades;

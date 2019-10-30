@@ -630,6 +630,23 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'b1battledroidsunit',
+    name: 'B1 Battle Droids Unit',
+    wave: 7,
+    released: true,
+    contents: {
+      units: {
+        b1battledroids: 1,
+      },
+      upgrades: {
+        electrobinoculars: 1,
+        e5cb1trooper: 1,
+        e60rb1trooper: 1,
+        b1battledroid: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
