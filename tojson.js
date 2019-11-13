@@ -1,11 +1,12 @@
 // @flow
 import { mkdir, writeFile } from 'fs';
-import { units, upgrades, commandCards } from './index';
+import { units, upgrades, commandCards, sources } from './index';
 
 const unifiedData = {
   units: units,
   upgrades: upgrades,
   commandCards: commandCards,
+  sources: sources,
 };
 
 const dataJson = JSON.stringify(unifiedData);
