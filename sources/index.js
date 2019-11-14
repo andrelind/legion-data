@@ -442,7 +442,8 @@ const sources: Source[] = [
       upgrades: {
         strictorders: 1,
         reconintel: 1,
-        a180pistolrifleconfig: 1,
+        a180rifleconfig: 1,
+        a180pistolconfig: 1,
         duckandcover: 1,
       },
     },
@@ -531,7 +532,7 @@ const sources: Source[] = [
     released: true,
     contents: {
       units: {
-        x34andspeeder: 1,
+        x34landspeeder: 1,
       },
       upgrades: {
         hquplink: 1,
@@ -637,7 +638,7 @@ const sources: Source[] = [
     contents: {
       units: {
         b1battledroids: 2,
-        generalgrevious: 1,
+        generalgrievous: 1,
         droidekas: 1,
         obiwankenobi: 1,
         barcspeeder: 1,
@@ -650,9 +651,9 @@ const sources: Source[] = [
         barctwinlasergunner: 1,
         barcrps6gunner: 1,
         barciongunner: 1,
-        phaseitrooper: 2,
-        dc15phase1trooper: 2,
-        z6phase1trooper: 2,
+        phaseiclonetrooper: 2,
+        dc15phaseitrooper: 2,
+        z6phaseitrooper: 2,
         dt57annihilator: 1,
         hunter: 1,
         aggressivetactics: 1,
@@ -676,7 +677,7 @@ const sources: Source[] = [
         smokegrenades: 1,
         dc15phaseitrooper: 1,
         z6phaseitrooper: 1,
-        phaseitrooper: 1,
+        phaseiclonetrooper: 1,
       },
     },
   },
