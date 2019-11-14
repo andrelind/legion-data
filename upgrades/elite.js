@@ -37,6 +37,15 @@ const upgrades: Upgrade[] = [
     points: 4,
     description: 'You gain Sentinel. (Your standby range is 1-3.)',
   },
+  {
+    ldf: 'endurance',
+    name: 'Endurance',
+    side: 'neutral',
+    slot: 'Elite',
+    points: 6,
+    description:
+      'At the end of the Activation phase, you may remove 1 suppression token.',
+  },
 ];
 
 export default upgrades;
