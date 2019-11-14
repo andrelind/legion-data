@@ -44,7 +44,9 @@ const sources: Source[] = [
     wave: 1,
     released: true,
     contents: {
-      units: { atrt: 1 },
+      units: {
+        atrt: 1,
+      },
       upgrades: {
         longrangecomlink: 1,
         commsjammer: 1,
@@ -60,7 +62,9 @@ const sources: Source[] = [
     wave: 1,
     released: true,
     contents: {
-      units: { rebeltroopers: 1 },
+      units: {
+        rebeltroopers: 1,
+      },
       upgrades: {
         mpl57iontrooper: 1,
         z6trooper: 1,
@@ -78,7 +82,9 @@ const sources: Source[] = [
     wave: 1,
     released: true,
     contents: {
-      units: { '74zspeederbikes': 1 },
+      units: {
+        '74zspeederbikes': 1,
+      },
       upgrades: {
         commsjammer: 1,
         longrangecomlink: 1,
@@ -91,7 +97,9 @@ const sources: Source[] = [
     wave: 1,
     released: true,
     contents: {
-      units: { stormtroopers: 1 },
+      units: {
+        stormtroopers: 1,
+      },
       upgrades: {
         grapplinghooks: 1,
         impactgrenades: 1,
@@ -109,7 +117,9 @@ const sources: Source[] = [
     wave: 1,
     released: true,
     contents: {
-      units: { t47airspeeder: 1 },
+      units: {
+        t47airspeeder: 1,
+      },
       upgrades: {
         longrangecomlink: 1,
         commsjammer: 1,
@@ -125,7 +135,9 @@ const sources: Source[] = [
     wave: 1,
     released: true,
     contents: {
-      units: { atst: 1 },
+      units: {
+        atst: 1,
+      },
       upgrades: {
         longrangecomlink: 1,
         commsjammer: 1,
@@ -142,7 +154,9 @@ const sources: Source[] = [
     wave: 2,
     released: true,
     contents: {
-      units: { snowtroopers: 1 },
+      units: {
+        snowtroopers: 1,
+      },
       upgrades: {
         targetingscopes: 1,
         concussiongrenades: 1,
@@ -160,7 +174,9 @@ const sources: Source[] = [
     wave: 2,
     released: true,
     contents: {
-      units: { generalveers: 1 },
+      units: {
+        generalveers: 1,
+      },
       upgrades: {
         commandingpresence: 1,
         esteemedleader: 1,
@@ -174,7 +190,9 @@ const sources: Source[] = [
     wave: 2,
     released: true,
     contents: {
-      units: { fleettroopers: 1 },
+      units: {
+        fleettroopers: 1,
+      },
       upgrades: {
         targetingscopes: 1,
         concussiongrenades: 1,
@@ -192,7 +210,9 @@ const sources: Source[] = [
     wave: 2,
     released: true,
     contents: {
-      units: { leiaorgana: 1 },
+      units: {
+        leiaorgana: 1,
+      },
       upgrades: {
         commandingpresence: 1,
         esteemedleader: 1,
@@ -225,7 +245,9 @@ const sources: Source[] = [
     wave: 3,
     released: true,
     contents: {
-      units: { hansolo: 1 },
+      units: {
+        hansolo: 1,
+      },
       upgrades: {
         improvisedorders: 1,
         duckandcover: 1,
@@ -258,7 +280,9 @@ const sources: Source[] = [
     wave: 3,
     released: true,
     contents: {
-      units: { bobafett: 1 },
+      units: {
+        bobafett: 1,
+      },
       upgrades: {
         hunter: 1,
         emergencystims: 1,
@@ -272,7 +296,9 @@ const sources: Source[] = [
     wave: 3,
     released: true,
     contents: {
-      units: { ewebheavyblasterteam: 1 },
+      units: {
+        ewebheavyblasterteam: 1,
+      },
       upgrades: {
         hquplink: 1,
         overchargedgenerator: 1,
@@ -286,7 +312,9 @@ const sources: Source[] = [
     wave: 3,
     released: true,
     contents: {
-      units: { '14fdlasercannonteam': 1 },
+      units: {
+        '14fdlasercannonteam': 1,
+      },
       upgrades: {
         hquplink: 1,
         overchargedgenerator: 1,
@@ -300,7 +328,9 @@ const sources: Source[] = [
     wave: 4,
     released: true,
     contents: {
-      units: { emperorpalpatine: 1 },
+      units: {
+        emperorpalpatine: 1,
+      },
       upgrades: {
         anger: 1,
         forcechoke: 1,
@@ -314,7 +344,9 @@ const sources: Source[] = [
     wave: 4,
     released: true,
     contents: {
-      units: { imperialroyalguards: 1 },
+      units: {
+        imperialroyalguards: 1,
+      },
       upgrades: {
         reconintel: 1,
         fragmentationgrenades: 1,
@@ -330,7 +362,9 @@ const sources: Source[] = [
     wave: 4,
     released: true,
     contents: {
-      units: { wookieewarriors: 1 },
+      units: {
+        wookieewarriors: 1,
+      },
       upgrades: {
         reconintel: 1,
         fragmentationgrenades: 1,
@@ -346,7 +380,9 @@ const sources: Source[] = [
     wave: 4,
     released: true,
     contents: {
-      units: { chewbacca: 1 },
+      units: {
+        chewbacca: 1,
+      },
       upgrades: {
         emergencystims: 1,
         tenacity: 1,
@@ -360,7 +396,9 @@ const sources: Source[] = [
     wave: 5,
     released: true,
     contents: {
-      units: { rebelofficer: 1 },
+      units: {
+        rebelofficer: 1,
+      },
       upgrades: {
         commandingpresence: 1,
         commsrelay: 1,
@@ -378,7 +416,9 @@ const sources: Source[] = [
     wave: 5,
     released: true,
     contents: {
-      units: { imperialofficer: 1 },
+      units: {
+        imperialofficer: 1,
+      },
       upgrades: {
         commandingpresence: 1,
         commsrelay: 1,
@@ -396,11 +436,14 @@ const sources: Source[] = [
     wave: 5,
     released: true,
     contents: {
-      units: { jynerso: 1 },
+      units: {
+        jynerso: 1,
+      },
       upgrades: {
         strictorders: 1,
         reconintel: 1,
-        a180pistolrifleconfig: 1,
+        a180rifleconfig: 1,
+        a180pistolconfig: 1,
         duckandcover: 1,
       },
     },
@@ -411,7 +454,9 @@ const sources: Source[] = [
     wave: 5,
     released: true,
     contents: {
-      units: { rebelpathfinders: 1 },
+      units: {
+        rebelpathfinders: 1,
+      },
       upgrades: {
         commsrelay: 1,
         fragmentationgrenades: 1,
@@ -419,7 +464,8 @@ const sources: Source[] = [
         pao: 1,
         duckandcover: 1,
         overwatch: 1,
-        a300shortrangelongrangeconfig: 1,
+        a300longrangeconfig: 1,
+        a300shortrangeconfig: 1,
       },
     },
   },
@@ -429,7 +475,9 @@ const sources: Source[] = [
     wave: 5,
     released: true,
     contents: {
-      units: { directororsonkrennic: 1 },
+      units: {
+        directororsonkrennic: 1,
+      },
       upgrades: {
         strictorders: 1,
         esteemedleader: 1,
@@ -443,9 +491,12 @@ const sources: Source[] = [
     wave: 5,
     released: true,
     contents: {
-      units: { imperialdeathtroopers: 1 },
+      units: {
+        imperialdeathtroopers: 1,
+      },
       upgrades: {
-        e11dgrenadelauncherfocusedfireconfig: 1,
+        e11dgrenadelauncherconfig: 1,
+        e11dfocusedfireconfig: 1,
         commsrelay: 1,
         environmentalgear: 1,
         fragmentationgrenades: 1,
@@ -470,7 +521,7 @@ const sources: Source[] = [
         dlt19riflepintle: 1,
         rt97criflepintle: 1,
         firstsergeantarbmab: 1,
-        impoerialhammerselitearmorpilot: 1,
+        imperialhammerselitearmorpilot: 1,
       },
     },
   },
@@ -481,7 +532,7 @@ const sources: Source[] = [
     released: true,
     contents: {
       units: {
-        x34andspeeder: 1,
+        x34landspeeder: 1,
       },
       upgrades: {
         hquplink: 1,
@@ -587,7 +638,7 @@ const sources: Source[] = [
     contents: {
       units: {
         b1battledroids: 2,
-        generalgrevious: 1,
+        generalgrievous: 1,
         droidekas: 1,
         obiwankenobi: 1,
         barcspeeder: 1,
@@ -600,9 +651,9 @@ const sources: Source[] = [
         barctwinlasergunner: 1,
         barcrps6gunner: 1,
         barciongunner: 1,
-        phaseitrooper: 2,
-        dc15phase1trooper: 2,
-        z6phase1trooper: 2,
+        phaseiclonetrooper: 2,
+        dc15phaseitrooper: 2,
+        z6phaseitrooper: 2,
         dt57annihilator: 1,
         hunter: 1,
         aggressivetactics: 1,
@@ -626,7 +677,7 @@ const sources: Source[] = [
         smokegrenades: 1,
         dc15phaseitrooper: 1,
         z6phaseitrooper: 1,
-        phaseitrooper: 1,
+        phaseiclonetrooper: 1,
       },
     },
   },
