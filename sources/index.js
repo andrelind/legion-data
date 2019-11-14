@@ -520,7 +520,7 @@ const sources: Source[] = [
         dlt19riflepintle: 1,
         rt97criflepintle: 1,
         firstsergeantarbmab: 1,
-        impoerialhammerselitearmorpilot: 1,
+        imperialhammerselitearmorpilot: 1,
       },
     },
   },
