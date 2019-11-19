@@ -333,7 +333,7 @@ const units: Unit[] = [
     keywords: [
       {
         name: 'Take Cover 1',
-        decription:
+        description:
           'Choose up to 1 friendly trooper unit at range 1. That unit gains a dodge token.',
       },
       {
@@ -378,7 +378,7 @@ const units: Unit[] = [
     keywords: [
       {
         name: 'Spotter 1',
-        decription:
+        description:
           'Choose 1 friendly unit at range 1. That unit gains an aim token.',
       },
       {
@@ -423,7 +423,7 @@ const units: Unit[] = [
     keywords: [
       {
         name: 'Quick Thinking',
-        decription: 'Gain 1 aim token and 1 dodge token.',
+        description: 'Gain 1 aim token and 1 dodge token.',
       },
       {
         name: 'Danger Sense 4',
@@ -464,7 +464,7 @@ const units: Unit[] = [
     keywords: [
       {
         name: 'Compel',
-        decription:
+        description:
           'After another friendly unit at range 1-2 rallies, if it is suppressed but not panicked, it may gain 1 suppression token to perform a free move action.',
       },
       {
@@ -516,6 +516,7 @@ const units: Unit[] = [
     speed: 2,
     defense: 'red',
     slots: ['Armament', 'Command', 'Command', 'Elite'],
+    surge: {},
     keywords: [
       {
         name: 'Arsenal 2',
@@ -578,6 +579,7 @@ const units: Unit[] = [
     speed: 2,
     defense: 'red',
     slots: ['Command', 'Force', 'Force', 'Elite'],
+    surge: {},
     keywords: [
       {
         name: 'Jump 1',
