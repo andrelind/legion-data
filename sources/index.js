@@ -698,6 +698,23 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'countdookucommander',
+    name: 'Count Dooku Commander',
+    wave: 7,
+    released: true,
+    contents: {
+      units: {
+        countdooku: 1,
+      },
+      upgrades: {
+        esteemedleader: 1,
+        anger: 1,
+        fear: 1,
+        forcechoke: 1,
+      },
+    },
+  },
 ];
 
 export default sources;

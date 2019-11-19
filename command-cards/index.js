@@ -442,6 +442,30 @@ const cards: CommandCard[] = [
     description:
       'When Obi-Wan Kenobi issues an order to a unit, that unit gains 1 surge token for each other friendly unit at range 1 of it.',
   },
+  {
+    ldf: 'fearsurpriseintimidation',
+    name: 'Fear, Surprise, Intimidation',
+    pips: 1,
+    orders: 'Count Dooku',
+    description:
+      'Count Dooku gains Arsenal 2 and Relentless, and each of his ranged weapons gains Versatile. After he performs an attack, each defender gains 2 suppression tokens.',
+  },
+  {
+    ldf: 'doublethefall',
+    name: 'Double the Fall',
+    pips: 2,
+    orders: 'Count Dooku & 1 Unit',
+    description:
+      'At the start of Activation phase, if Count Dooku has a faceup order token, he may return it to his order pool to choose up to 2 enemy units at range 1-2 and return their order tokens to their order pool.',
+  },
+  {
+    ldf: 'youdisappointme',
+    name: 'You Disappoint Me',
+    pips: 3,
+    orders: 'Count Dooku & 2 Units',
+    description:
+      'When Count Dooku issues an order to a unit, that unit gains 1 dodge token. After Count Dooku performs a ranged attack against a trooper unit, he may perform a speed-2 move with that unit.',
+  },
 ];
 
 export default cards;
