@@ -682,6 +682,64 @@ const units: Unit[] = [
       'youdisappointme',
     ],
   },
+  {
+    ldf: 'clonecaptainrex',
+    name: 'Clone Captain Rex',
+    unique: true,
+    side: 'light',
+    rank: 'Commander',
+    type: 'Trooper',
+    points: 90,
+    minis: 1,
+    wounds: 5,
+    courage: 2,
+    speed: 2,
+    defense: 'red',
+    slots: ['Command', 'Gear', 'Gear', 'Grenades', 'Elite'],
+    surge: { attack: 'crit' },
+    keywords: [
+      {
+        name: 'Gunslinger',
+        description:
+          'After you perform a ranged attack action, you may perform an additional ranged attack against a different unit.',
+      },
+      {
+        name: 'Scout 1',
+        description: 'After you deploy, you may perform a speed 1 move.',
+      },
+      {
+        name: 'Scouting Party 2',
+        description:
+          'After you use Scout, choose up to 2 friendly troopers at range 1-2. Each friendly unit may perform a move with a speed equal to your Scout value.',
+      },
+      {
+        name: 'Sharpshooter 1',
+        description:
+          'While performing a ranged attack, reduce the defender’s cover by 1.',
+      },
+      {
+        name: 'Tactical 1',
+        description: 'After you perform a standard move, gain 1 aim token.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Advanced Combat Training',
+        dice: { red: 2 },
+        range: { from: 0, to: 0 },
+      },
+      {
+        name: 'Dual DC-17 Hand Blasters',
+        dice: { red: 3 },
+        range: { from: 1, to: 2 },
+      },
+    ],
+    commandCards: [
+      'youcancallmecaptain',
+      'eatthisclankers',
+      'werenotprogrammed',
+    ],
+  },
 ];
 
 export default units;

@@ -466,6 +466,31 @@ const cards: CommandCard[] = [
     description:
       'When Count Dooku issues an order to a unit, that unit gains 1 dodge token. After Count Dooku performs a ranged attack against a trooper unit, he may perform a speed-2 move with that unit.',
   },
+  {
+    ldf: 'youcancallmecaptain',
+    name: 'You Can Call Me Captain',
+    pips: 1,
+    orders: 'Clone Captain Rex',
+    descriptions:
+      'Captain Rex gains Fire Support. When using Fire Support, his order token is not flipped upside down. When a friendly unit attacks in melee, Rex can use Fire Support to add a ranged weapon to that attack.',
+  },
+  {
+    ldf: 'eatthisclankers',
+    name: 'Eat this, Clankers!',
+    pips: 2,
+    orders: '2 Troopers',
+    descriptions:
+      'When a friendly trooper unit performs a ranged attack while having a faceup order token and an Aim token, during the "gather a attack dice pool" step that unit can increase the maximum range of every weapon by 1 (to a maximum of 4).',
+  },
+  {
+    ldf: 'werenotprogrammed',
+    name: "We're Not Programmed",
+    pips: 3,
+    orders: '4 Clone Troopers',
+    descriptions:
+      'Clone Captain Rex gains Inspire 2 and 2 surge tokens. When Clone Captain Rex activates, he recovers.',
+    keywords: ['Inspire 2'],
+  },
 ];
 
 export default cards;

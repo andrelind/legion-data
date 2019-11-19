@@ -715,6 +715,24 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'clonecaptainrexcommander',
+    name: 'Clone Captain Rex Commander',
+    wave: 7,
+    released: true,
+    contents: {
+      units: {
+        clonecaptainrex: 1,
+      },
+      upgrades: {
+        esteemedleader: 1,
+        emergencystims: 1,
+        reconintel: 1,
+        smokegrenades: 1,
+        endurance: 1,
+      },
+    },
+  },
 ];
 
 export default sources;
