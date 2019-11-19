@@ -84,6 +84,15 @@ const upgrades: Upgrade[] = [
     description:
       'Choose up to 2 friendly units at range 1-2. Each chosen unit gains 1 surge token.',
   },
+  {
+    ldf: 'fear',
+    name: 'Fear',
+    side: 'dark',
+    slot: 'Force',
+    points: 3,
+    description:
+      'You gain Demoralize 1 (After your Rally step, an enemy unit range 1-2 gains up to 1 suppression token.)',
+  },
 ];
 
 export default upgrades;
