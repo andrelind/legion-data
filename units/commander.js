@@ -635,7 +635,7 @@ const units: Unit[] = [
     speed: 2,
     defense: 'red',
     slots: ['Command', 'Force', 'Force', 'Force'],
-    surge: {},
+    surge: { attack: 'crit' },
     keywords: [
       {
         name: 'Cunning',
