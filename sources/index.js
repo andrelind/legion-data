@@ -711,6 +711,7 @@ const sources: Source[] = [
         esteemedleader: 1,
         anger: 1,
         fear: 1,
+        forcechoke: 1,
       },
     },
   },
