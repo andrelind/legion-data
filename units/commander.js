@@ -621,6 +621,67 @@ const units: Unit[] = [
     ],
     commandCards: ['hellothere', 'knowledgeanddefense', 'generalkenobi'],
   },
+  {
+    ldf: 'countdooku',
+    name: 'Count Dooku',
+    unique: true,
+    side: 'dark',
+    rank: 'Commander',
+    type: 'Trooper',
+    points: 205,
+    minis: 1,
+    wounds: 6,
+    courage: 3,
+    speed: 2,
+    defense: 'red',
+    slots: ['Command', 'Force', 'Force', 'Force'],
+    surge: {},
+    keywords: [
+      {
+        name: 'Cunning',
+        description:
+          'When your commander specific command cards are played, if there would be a bid for priority, treat your command card as though it had 1 fewer pip.',
+      },
+      {
+        name: 'Deflect',
+        description:
+          'While defending, if you spend a dodge token, you gain “Surge: Block”: if it’s a ranged attack, the attacker suffers 1 wound for each Surge rolled.',
+      },
+      {
+        name: 'Immune: Pierce',
+        description: 'Pierce cannot be used against you.',
+      },
+      {
+        name: 'Makashi Mastery',
+        description:
+          'While performing a melee attack, you may reduce the Pierce value of your melee weapon by 1. If you do, the defender cannot use Immune: Pierce.',
+      },
+      {
+        name: 'Master of the Force 2',
+        description:
+          'During the End Phase, you may ready 2 of your Force upgrade cards.',
+      },
+    ],
+    weapons: [
+      {
+        name: "Dooku's Lightsaber",
+        dice: { red: 5 },
+        range: { from: 0, to: 0 },
+        keywords: ['Impact 2', 'Pierce 2'],
+      },
+      {
+        name: "Dooku's Lightning",
+        dice: { black: 5 },
+        range: { from: 1, to: 2 },
+        keywords: ['Scatter'],
+      },
+    ],
+    commandCards: [
+      'fearsurpriseintimidation',
+      'doublethefall',
+      'youdisappointme',
+    ],
+  },
 ];
 
 export default units;
