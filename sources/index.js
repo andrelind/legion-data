@@ -733,6 +733,25 @@ const sources: Source[] = [
       },
     },
   },
+  {
+    ldf: 'dewbackriderunit',
+    name: 'Dewback Rider Unit',
+    wave: 6,
+    released: true,
+    contents: {
+      units: {
+        dewbackrider: 1,
+      },
+      upgrades: {
+        t21blasterrifle: 1,
+        rt97cblasterrifle: 1,
+        cr24flamerifle: 1,
+        commsjammer: 1,
+        endurance: 1,
+        tenacity: 1,
+      },
+    },
+  },
 ];
 
 export default sources;

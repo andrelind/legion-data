@@ -174,6 +174,53 @@ const upgrades: Upgrade[] = [
       dice: { black: 2, white: 2 },
     },
   },
+  {
+    ldf: 't21blasterrifle',
+    name: 'T-21 Blaster Rifle',
+    points: 10,
+    restrictions: {
+      name: 'Dewback Rider only',
+      ldf: 'dewbackrider',
+    },
+    side: 'dark',
+    slot: 'Armament',
+    keywords: ['Critical 2'],
+    weapon: {
+      range: { from: 1, to: 3 },
+      dice: { white: 4 },
+    },
+  },
+  {
+    ldf: 'rt97cblasterrifle',
+    name: 'RT-97C Blaster Rifle',
+    points: 15,
+    restrictions: {
+      name: 'Dewback Rider only',
+      ldf: 'dewbackrider',
+    },
+    side: 'dark',
+    slot: 'Armament',
+    weapon: {
+      range: { from: 1, to: 4 },
+      dice: { red: 1, white: 3 },
+    },
+  },
+  {
+    ldf: 'cr24flamerifle',
+    name: 'CR-24 Flame Rifle',
+    points: 20,
+    restrictions: {
+      name: 'Dewback Rider only',
+      ldf: 'dewbackrider',
+    },
+    side: 'dark',
+    slot: 'Armament',
+    keywords: ['Blast', 'Spray'],
+    weapon: {
+      range: { from: 1, to: 1 },
+      dice: { black: 1, white: 1 },
+    },
+  },
 ];
 
 export default upgrades;
