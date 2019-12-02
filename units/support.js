@@ -317,6 +317,54 @@ const units: Array<Unit> = [
       },
     ],
   },
+  {
+    ldf: 'dewbackrider',
+    name: 'Dewback Rider',
+    side: 'dark',
+    points: 90,
+    rank: 'Support',
+    type: 'Creature Trooper',
+    minis: 1,
+    wounds: 6,
+    courage: 2,
+    defense: 'red',
+    surge: { attack: 'hit' },
+    speed: 1,
+    slots: ['Armament', 'Comms', 'Elite'],
+    keywords: [
+      {
+        name: 'Armor 1',
+        description: 'While defending, cancel up to 1 hit result.',
+      },
+      {
+        name: 'Relentless',
+        description:
+          'After you perform a move action, you may perform a free attack action.',
+      },
+      {
+        name: 'Reposition',
+        description:
+          'Either before or after you perform a standard move, you may perform a free pivot action.',
+      },
+      {
+        name: 'Spur',
+        description:
+          'While performing a move, you may gain 1 suppression token to increase your maximum speed by 1.',
+      },
+      {
+        name: 'Unhindered',
+        description: 'You ignore the effects of difficult terrain.',
+      },
+    ],
+    weapons: [
+      {
+        name: 'Razor Claws & Shock Prod',
+        range: { from: 0, to: 0 },
+        dice: { red: 3, white: 3 },
+        keywords: ['Critical 2', 'Suppressive'],
+      },
+    ],
+  },
 ];
 
 export default units;
